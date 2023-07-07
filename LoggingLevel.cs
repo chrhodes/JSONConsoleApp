@@ -1,6 +1,6 @@
 ﻿using System.Drawing;
 using System.Windows;
-
+using JSONConsoleApp.jsonDeserializeClass;
 using VNC.Core.Mvvm;
 
 namespace JSONConsoleApp
@@ -23,7 +23,8 @@ namespace JSONConsoleApp
             }
         }
 
-        private Color _labelColor = Color.Black;
+        //private Color _labelColor = Color.Black;
+        private Color _labelColor;
         public Color LabelColor
         {
             get => _labelColor;
@@ -39,7 +40,8 @@ namespace JSONConsoleApp
             }
         }
 
-        private Color _color = Color.FromArgb(200, 200, 200);
+        //private Color _color = Color.FromArgb(200, 200, 200);
+        private Color _color;
         public Color Color
         {
             get => _color;
