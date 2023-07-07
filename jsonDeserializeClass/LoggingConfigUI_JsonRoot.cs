@@ -1,69 +1,71 @@
-﻿namespace JSONConsoleApp.jsonDeserializeClass
+﻿using System;
+
+namespace JSONConsoleApp.jsonDeserializeClass
 {
 
     public class LoggingUIConfig_JsonRoot
     {
         public string Name { get; set; }
-        public Info00 Info00 { get; set; }
-        public Info01 Info01 { get; set; }
-        public Info02 Info02 { get; set; }
-        public Info03 Info03 { get; set; }
-        public Info04 Info04 { get; set; }
-        public Debug00 Debug00 { get; set; }
-        public Debug01 Debug01 { get; set; }
-        public Debug02 Debug02 { get; set; }
-        public Debug03 Debug03 { get; set; }
-        public Debug04 Debug04 { get; set; }
-        public Arch00 Arch00 { get; set; }
-        public Arch01 Arch01 { get; set; }
-        public Arch02 Arch02 { get; set; }
-        public Arch03 Arch03 { get; set; }
-        public Arch04 Arch04 { get; set; }
-        public Arch05 Arch05 { get; set; }
-        public Arch06 Arch06 { get; set; }
-        public Arch07 Arch07 { get; set; }
-        public Arch08 Arch08 { get; set; }
-        public Arch09 Arch09 { get; set; }
-        public Arch10 Arch10 { get; set; }
-        public Arch11 Arch11 { get; set; }
-        public Arch12 Arch12 { get; set; }
-        public Arch13 Arch13 { get; set; }
-        public Arch14 Arch14 { get; set; }
-        public Arch15 Arch15 { get; set; }
-        public Arch16 Arch16 { get; set; }
-        public Arch17 Arch17 { get; set; }
-        public Arch18 Arch18 { get; set; }
-        public Arch19 Arch19 { get; set; }
-        public Trace00 Trace00 { get; set; }
-        public Trace01 Trace01 { get; set; }
-        public Trace02 Trace02 { get; set; }
-        public Trace03 Trace03 { get; set; }
-        public Trace04 Trace04 { get; set; }
-        public Trace05 Trace05 { get; set; }
-        public Trace06 Trace06 { get; set; }
-        public Trace07 Trace07 { get; set; }
-        public Trace08 Trace08 { get; set; }
-        public Trace09 Trace09 { get; set; }
-        public Trace10 Trace10 { get; set; }
-        public Trace11 Trace11 { get; set; }
-        public Trace12 Trace12 { get; set; }
-        public Trace13 Trace13 { get; set; }
-        public Trace14 Trace14 { get; set; }
-        public Trace15 Trace15 { get; set; }
-        public Trace16 Trace16 { get; set; }
-        public Trace17 Trace17 { get; set; }
-        public Trace18 Trace18 { get; set; }
-        public Trace19 Trace19 { get; set; }
-        public Trace20 Trace20 { get; set; }
-        public Trace21 Trace21 { get; set; }
-        public Trace22 Trace22 { get; set; }
-        public Trace23 Trace23 { get; set; }
-        public Trace24 Trace24 { get; set; }
-        public Trace25 Trace25 { get; set; }
-        public Trace26 Trace26 { get; set; }
-        public Trace27 Trace27 { get; set; }
-        public Trace28 Trace28 { get; set; }
-        public Trace29 Trace29 { get; set; }
+        public LoggingLevelX Info00 { get; set; }
+        public LoggingLevelX Info01 { get; set; }
+        public LoggingLevelX Info02 { get; set; }
+        public LoggingLevelX Info03 { get; set; }
+        public LoggingLevelX Info04 { get; set; }
+        public LoggingLevelX Debug00 { get; set; }
+        public LoggingLevelX Debug01 { get; set; }
+        public LoggingLevelX Debug02 { get; set; }
+        public LoggingLevelX Debug03 { get; set; }
+        public LoggingLevelX Debug04 { get; set; }
+        public LoggingLevelX Arch00 { get; set; }
+        public LoggingLevelX Arch01 { get; set; }
+        public LoggingLevelX Arch02 { get; set; }
+        public LoggingLevelX Arch03 { get; set; }
+        public LoggingLevelX Arch04 { get; set; }
+        public LoggingLevelX Arch05 { get; set; }
+        public LoggingLevelX Arch06 { get; set; }
+        public LoggingLevelX Arch07 { get; set; }
+        public LoggingLevelX Arch08 { get; set; }
+        public LoggingLevelX Arch09 { get; set; }
+        public LoggingLevelX Arch10 { get; set; }
+        public LoggingLevelX Arch11 { get; set; }
+        public LoggingLevelX Arch12 { get; set; }
+        public LoggingLevelX Arch13 { get; set; }
+        public LoggingLevelX Arch14 { get; set; }
+        public LoggingLevelX Arch15 { get; set; }
+        public LoggingLevelX Arch16 { get; set; }
+        public LoggingLevelX Arch17 { get; set; }
+        public LoggingLevelX Arch18 { get; set; }
+        public LoggingLevelX Arch19 { get; set; }
+        public LoggingLevelX Trace00 { get; set; }
+        public LoggingLevelX Trace01 { get; set; }
+        public LoggingLevelX Trace02 { get; set; }
+        public LoggingLevelX Trace03 { get; set; }
+        public LoggingLevelX Trace04 { get; set; }
+        public LoggingLevelX Trace05 { get; set; }
+        public LoggingLevelX Trace06 { get; set; }
+        public LoggingLevelX Trace07 { get; set; }
+        public LoggingLevelX Trace08 { get; set; }
+        public LoggingLevelX Trace09 { get; set; }
+        public LoggingLevelX Trace10 { get; set; }
+        public LoggingLevelX Trace11 { get; set; }
+        public LoggingLevelX Trace12 { get; set; }
+        public LoggingLevelX Trace13 { get; set; }
+        public LoggingLevelX Trace14 { get; set; }
+        public LoggingLevelX Trace15 { get; set; }
+        public LoggingLevelX Trace16 { get; set; }
+        public LoggingLevelX Trace17 { get; set; }
+        public LoggingLevelX Trace18 { get; set; }
+        public LoggingLevelX Trace19 { get; set; }
+        public LoggingLevelX Trace20 { get; set; }
+        public LoggingLevelX Trace21 { get; set; }
+        public LoggingLevelX Trace22 { get; set; }
+        public LoggingLevelX Trace23 { get; set; }
+        public LoggingLevelX Trace24 { get; set; }
+        public LoggingLevelX Trace25 { get; set; }
+        public LoggingLevelX Trace26 { get; set; }
+        public LoggingLevelX Trace27 { get; set; }
+        public LoggingLevelX Trace28 { get; set; }
+        public LoggingLevelX Trace29 { get; set; }
 
         public LoggingUIConfig ConvertToLoggingUIConfig()
         {
@@ -77,46 +79,56 @@
             //
             // Here a a few hard coded ones
 
-            if (Info00 is not null)
-            {
-                loggingUIConfig.Info00 = new LoggingLevel 
-                    {
-                    Label = Info00.Label,
-                    ToolTip = Info00.ToolTip,
-                    Color = ConvertToColor(Info00.Color),
-                    LabelColor = ConvertToColor(Info00.LabelColor),
-                    IsChecked = Info00.IsChecked,
-                    Visibility = (System.Windows.Visibility)Info00.Visibility
-                };
-            }
+            if (Info00 is not null) loggingUIConfig.Info00 = ConvertToLoggingUIConfig(Info00);
 
-            if (Arch00 is not null)
-            {
-                loggingUIConfig.Arch00 = new LoggingLevel
-                {
-                    Label = Arch00.Label,
-                    ToolTip = Arch00.ToolTip,
-                    Color = ConvertToColor(Arch00.Color),
-                    LabelColor = ConvertToColor(Arch00.LabelColor),
-                    IsChecked = Arch00.IsChecked,
-                    Visibility = (System.Windows.Visibility)Arch00.Visibility
-                };
-            }
+            if (Info01 is not null) loggingUIConfig.Info01 = ConvertToLoggingUIConfig(Info01);
 
-            if (Arch01 is not null)
-            {
-                loggingUIConfig.Arch01 = new LoggingLevel
-                {
-                    Label = Arch01.Label,
-                    ToolTip = Arch01.ToolTip,
-                    Color = ConvertToColor(Arch01.Color),
-                    LabelColor = ConvertToColor(Arch01.LabelColor),
-                    IsChecked = Arch01.IsChecked,
-                    Visibility = (System.Windows.Visibility)Arch01.Visibility
-                };
-            }
+            if (Arch00 is not null) loggingUIConfig.Arch00 = ConvertToLoggingUIConfig(Arch00);
+
+            if (Arch01 is not null) loggingUIConfig.Arch01 = ConvertToLoggingUIConfig(Arch01);
+
+            //if (Arch00 is not null)
+            //{
+            //    loggingUIConfig.Arch00 = new LoggingLevel
+            //    {
+            //        Label = Arch00.Label,
+            //        ToolTip = Arch00.ToolTip,
+            //        Color = ConvertToColor(Arch00.Color),
+            //        LabelColor = ConvertToColor(Arch00.LabelColor),
+            //        IsChecked = Arch00.IsChecked,
+            //        Visibility = (System.Windows.Visibility)Arch00.Visibility
+            //    };
+            //}
+
+            //if (Arch01 is not null)
+            //{
+            //    loggingUIConfig.Arch01 = new LoggingLevel
+            //    {
+            //        Label = Arch01.Label,
+            //        ToolTip = Arch01.ToolTip,
+            //        Color = ConvertToColor(Arch01.Color),
+            //        LabelColor = ConvertToColor(Arch01.LabelColor),
+            //        IsChecked = Arch01.IsChecked,
+            //        Visibility = (System.Windows.Visibility)Arch01.Visibility
+            //    };
+            //}
 
             return loggingUIConfig;
+        }
+
+        private LoggingLevel ConvertToLoggingUIConfig(LoggingLevelX loggingLevelX)
+        {
+            LoggingLevel loggingLevel = new LoggingLevel
+            {
+                Label = loggingLevelX.Label,
+                ToolTip = loggingLevelX.ToolTip,
+                Color = ConvertToColor(loggingLevelX.Color),
+                LabelColor = ConvertToColor(loggingLevelX.LabelColor),
+                IsChecked = loggingLevelX.IsChecked,
+                Visibility = (System.Windows.Visibility)loggingLevelX.Visibility
+            };
+
+            return loggingLevel;
         }
 
         private System.Drawing.Color ConvertToColor(ColorX colorX)
@@ -127,6 +139,15 @@
         }
     }
 
+    public class LoggingLevelX
+    {
+        public string Label { get; set; }
+        public ColorX LabelColor { get; set; }
+        public ColorX Color { get; set; }
+        public bool IsChecked { get; set; }
+        public string ToolTip { get; set; }
+        public int Visibility { get; set; }
+    }
 
     public class Info00
     {
