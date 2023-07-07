@@ -1,0 +1,28 @@
+{
+    "Color": {
+        "A": 255,
+        "B": 200,
+        "G": 200,
+        "IsEmpty": false,
+        "IsKnownColor": false,
+        "IsNamedColor": false,
+        "IsSystemColor": false,
+        "Name": "ffc8c8c8",
+        "R": 200
+    },
+    "IsChecked": true,
+    "Label": null,
+    "LabelColor": {
+        "A": 255,
+        "B": 0,
+        "G": 0,
+        "IsEmpty": false,
+        "IsKnownColor": true,
+        "IsNamedColor": true,
+        "IsSystemColor": false,
+        "Name": "Black",
+        "R": 0
+    },
+    "ToolTip": null,
+    "Visibility": 0
+}
