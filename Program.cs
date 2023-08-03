@@ -2,6 +2,8 @@
 using System.Drawing;
 using System.IO;
 using System.Text.Json;
+using System.Windows.Media;
+
 using JSONConsoleApp.jsonDeserializeClass;
 
 namespace JSONConsoleApp;
@@ -17,13 +19,19 @@ class Program
 
         Console.WriteLine($"{Directory.GetCurrentDirectory()}");
 
-        //ConvertObjectToJSON();
-        ConvertJSONToObject();
+        ConvertObjectToJSON();
+        //ConvertJSONToObject();
     }
 
     private static void ConvertObjectToJSON()
     {
-        LoggingLevel ll1 = new LoggingLevel { Label = "Info01", Color = Color.FromArgb(30, 150, 255), ToolTip = "" };
+        Brush brush = Brushes.AliceBlue;
+
+        LoggingLevel ll1 = new LoggingLevel { 
+            Label = "Info01", 
+            Color = System.Drawing.Color.FromArgb(30, 150, 255), 
+            Brush = Brushes.AliceBlue, 
+            ToolTip = "" };
 
         LoggingLevel ll2 = new LoggingLevel();
 
@@ -79,11 +87,9 @@ class Program
 
         string fileName = "ll1.json";
         string jsonString = File.ReadAllText(fileName);
-        
+
         //ll1 = JsonSerializer.Deserialize<LoggingLevel>(jsonString);
-        LoggingLevel_JsonRoot? ll2 = JsonSerializer.Deserialize<LoggingLevel_JsonRoot>(jsonString);
-
-
+        LoggingUIConfig_JsonRoot? ll2 = JsonSerializer.Deserialize<LoggingUIConfig_JsonRoot>(jsonString);
 
         fileName = "loggingUIConfig.json";
         jsonString = File.ReadAllText(fileName);

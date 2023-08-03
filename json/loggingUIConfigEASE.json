@@ -24,6 +24,7 @@
       "IsSystemColor": false,
       "Name": "0"
     },
+    "Brush": null,
     "IsChecked": true,
     "ToolTip": "APPLICATION_START / APPLICATION_END / LOADEASE / Info00",
     "Visibility": 0
@@ -52,6 +53,7 @@
       "IsSystemColor": false,
       "Name": "0"
     },
+    "Brush": null,
     "IsChecked": true,
     "ToolTip": "Info01",
     "Visibility": 0
@@ -80,6 +82,7 @@
       "IsSystemColor": false,
       "Name": "0"
     },
+    "Brush": null,
     "IsChecked": true,
     "ToolTip": "Info02",
     "Visibility": 0
@@ -108,6 +111,7 @@
       "IsSystemColor": false,
       "Name": "0"
     },
+    "Brush": null,
     "IsChecked": true,
     "ToolTip": "Info03",
     "Visibility": 0
@@ -136,6 +140,7 @@
       "IsSystemColor": false,
       "Name": "0"
     },
+    "Brush": null,
     "IsChecked": true,
     "ToolTip": "Info04",
     "Visibility": 0
@@ -164,6 +169,7 @@
       "IsSystemColor": false,
       "Name": "0"
     },
+    "Brush": null,
     "IsChecked": true,
     "ToolTip": "Debug00",
     "Visibility": 0
@@ -192,6 +198,7 @@
       "IsSystemColor": false,
       "Name": "0"
     },
+    "Brush": null,
     "IsChecked": true,
     "ToolTip": "Debug01",
     "Visibility": 0
@@ -220,6 +227,7 @@
       "IsSystemColor": false,
       "Name": "Red"
     },
+    "Brush": null,
     "IsChecked": true,
     "ToolTip": "SQL_CALL / Debug02",
     "Visibility": 0
@@ -248,6 +256,7 @@
       "IsSystemColor": false,
       "Name": "0"
     },
+    "Brush": null,
     "IsChecked": true,
     "ToolTip": "Debug03",
     "Visibility": 0
@@ -276,6 +285,7 @@
       "IsSystemColor": false,
       "Name": "0"
     },
+    "Brush": null,
     "IsChecked": true,
     "ToolTip": "Debug04",
     "Visibility": 0
@@ -304,6 +314,7 @@
       "IsSystemColor": false,
       "Name": "0"
     },
+    "Brush": null,
     "IsChecked": true,
     "ToolTip": "Arch00",
     "Visibility": 0
@@ -332,6 +343,7 @@
       "IsSystemColor": false,
       "Name": "0"
     },
+    "Brush": null,
     "IsChecked": true,
     "ToolTip": "Arch01",
     "Visibility": 0
@@ -360,6 +372,7 @@
       "IsSystemColor": false,
       "Name": "0"
     },
+    "Brush": null,
     "IsChecked": true,
     "ToolTip": "Arch02",
     "Visibility": 0
@@ -388,6 +401,7 @@
       "IsSystemColor": false,
       "Name": "0"
     },
+    "Brush": null,
     "IsChecked": true,
     "ToolTip": "Arch03",
     "Visibility": 0
@@ -416,6 +430,7 @@
       "IsSystemColor": false,
       "Name": "0"
     },
+    "Brush": null,
     "IsChecked": true,
     "ToolTip": "Arch04",
     "Visibility": 0
@@ -444,6 +459,7 @@
       "IsSystemColor": false,
       "Name": "0"
     },
+    "Brush": null,
     "IsChecked": true,
     "ToolTip": "Arch05",
     "Visibility": 0
@@ -472,6 +488,7 @@
       "IsSystemColor": false,
       "Name": "0"
     },
+    "Brush": null,
     "IsChecked": true,
     "ToolTip": "Arch06",
     "Visibility": 0
@@ -500,6 +517,7 @@
       "IsSystemColor": false,
       "Name": "0"
     },
+    "Brush": null,
     "IsChecked": true,
     "ToolTip": "Arch07",
     "Visibility": 0
@@ -528,6 +546,7 @@
       "IsSystemColor": false,
       "Name": "0"
     },
+    "Brush": null,
     "IsChecked": true,
     "ToolTip": "Arch08",
     "Visibility": 0
@@ -556,6 +575,7 @@
       "IsSystemColor": false,
       "Name": "0"
     },
+    "Brush": null,
     "IsChecked": true,
     "ToolTip": "Arch09",
     "Visibility": 0
@@ -584,6 +604,7 @@
       "IsSystemColor": false,
       "Name": "0"
     },
+    "Brush": null,
     "IsChecked": true,
     "ToolTip": "Arch10",
     "Visibility": 0
@@ -612,6 +633,7 @@
       "IsSystemColor": false,
       "Name": "0"
     },
+    "Brush": null,
     "IsChecked": true,
     "ToolTip": "Arch11",
     "Visibility": 0
@@ -640,6 +662,7 @@
       "IsSystemColor": false,
       "Name": "0"
     },
+    "Brush": null,
     "IsChecked": true,
     "ToolTip": "Arch12",
     "Visibility": 0
@@ -668,6 +691,7 @@
       "IsSystemColor": false,
       "Name": "0"
     },
+    "Brush": null,
     "IsChecked": true,
     "ToolTip": "Arch13",
     "Visibility": 0
@@ -696,6 +720,7 @@
       "IsSystemColor": false,
       "Name": "0"
     },
+    "Brush": null,
     "IsChecked": true,
     "ToolTip": "Arch14",
     "Visibility": 0
@@ -724,6 +749,7 @@
       "IsSystemColor": false,
       "Name": "0"
     },
+    "Brush": null,
     "IsChecked": true,
     "ToolTip": "Arch15",
     "Visibility": 0
@@ -752,6 +778,7 @@
       "IsSystemColor": false,
       "Name": "0"
     },
+    "Brush": null,
     "IsChecked": true,
     "ToolTip": "Arch16",
     "Visibility": 0
@@ -780,6 +807,7 @@
       "IsSystemColor": false,
       "Name": "0"
     },
+    "Brush": null,
     "IsChecked": true,
     "ToolTip": "Arch17",
     "Visibility": 0
@@ -808,6 +836,7 @@
       "IsSystemColor": false,
       "Name": "0"
     },
+    "Brush": null,
     "IsChecked": true,
     "ToolTip": "Arch18",
     "Visibility": 0
@@ -836,6 +865,7 @@
       "IsSystemColor": false,
       "Name": "0"
     },
+    "Brush": null,
     "IsChecked": true,
     "ToolTip": "Arch19",
     "Visibility": 0
@@ -864,6 +894,7 @@
       "IsSystemColor": false,
       "Name": "Lime"
     },
+    "Brush": null,
     "IsChecked": true,
     "ToolTip": "PAGE_LOAD / FORM_LOAD / Trace00",
     "Visibility": 0
@@ -892,6 +923,7 @@
       "IsSystemColor": false,
       "Name": "Cyan"
     },
+    "Brush": null,
     "IsChecked": true,
     "ToolTip": "EVENTHANDLER / Trace01",
     "Visibility": 0
@@ -920,6 +952,7 @@
       "IsSystemColor": false,
       "Name": "0"
     },
+    "Brush": null,
     "IsChecked": true,
     "ToolTip": "STATUS / Trace02",
     "Visibility": 0
@@ -948,6 +981,7 @@
       "IsSystemColor": false,
       "Name": "GreenYellow"
     },
+    "Brush": null,
     "IsChecked": true,
     "ToolTip": "REDIRECT_TRANSFER / Trace03",
     "Visibility": 0
@@ -976,6 +1010,7 @@
       "IsSystemColor": false,
       "Name": "BurlyWood"
     },
+    "Brush": null,
     "IsChecked": true,
     "ToolTip": "POLLING / Trace04",
     "Visibility": 0
@@ -1004,6 +1039,7 @@
       "IsSystemColor": false,
       "Name": "Yellow"
     },
+    "Brush": null,
     "IsChecked": true,
     "ToolTip": "ERROR_TRACE / Trace05",
     "Visibility": 0
@@ -1032,6 +1068,7 @@
       "IsSystemColor": false,
       "Name": "DarkCyan"
     },
+    "Brush": null,
     "IsChecked": true,
     "ToolTip": "EASESYS_IO / Trace06",
     "Visibility": 0
@@ -1060,6 +1097,7 @@
       "IsSystemColor": false,
       "Name": "LightPink"
     },
+    "Brush": null,
     "IsChecked": true,
     "ToolTip": "UI_CONTROL / Trace07",
     "Visibility": 0
@@ -1088,6 +1126,7 @@
       "IsSystemColor": false,
       "Name": "SlateGray"
     },
+    "Brush": null,
     "IsChecked": true,
     "ToolTip": "UTILITY / Trace08",
     "Visibility": 0
@@ -1116,6 +1155,7 @@
       "IsSystemColor": false,
       "Name": "0"
     },
+    "Brush": null,
     "IsChecked": true,
     "ToolTip": "OPERATION / Trace09",
     "Visibility": 0
@@ -1144,6 +1184,7 @@
       "IsSystemColor": false,
       "Name": "Plum"
     },
+    "Brush": null,
     "IsChecked": true,
     "ToolTip": "APPLICATION_SESSION / Trace10",
     "Visibility": 0
@@ -1172,6 +1213,7 @@
       "IsSystemColor": false,
       "Name": "Orange"
     },
+    "Brush": null,
     "IsChecked": true,
     "ToolTip": "SYSTEM_CONFIG / Trace11",
     "Visibility": 0
@@ -1200,6 +1242,7 @@
       "IsSystemColor": false,
       "Name": "Chocolate"
     },
+    "Brush": null,
     "IsChecked": true,
     "ToolTip": "FILE_DIR_IO / Trace12",
     "Visibility": 0
@@ -1228,6 +1271,7 @@
       "IsSystemColor": false,
       "Name": "Olive"
     },
+    "Brush": null,
     "IsChecked": true,
     "ToolTip": "DATABASE_IO / Trace13",
     "Visibility": 0
@@ -1256,6 +1300,7 @@
       "IsSystemColor": false,
       "Name": "Fuchsia"
     },
+    "Brush": null,
     "IsChecked": true,
     "ToolTip": "SECURITY / Trace14",
     "Visibility": 0
@@ -1284,6 +1329,7 @@
       "IsSystemColor": false,
       "Name": "Yellow"
     },
+    "Brush": null,
     "IsChecked": true,
     "ToolTip": "ERROR_TRACE_LOW / Trace15",
     "Visibility": 0
@@ -1312,6 +1358,7 @@
       "IsSystemColor": false,
       "Name": "DarkCyan"
     },
+    "Brush": null,
     "IsChecked": true,
     "ToolTip": "EASESYS_IO_MED / Trace16",
     "Visibility": 0
@@ -1340,6 +1387,7 @@
       "IsSystemColor": false,
       "Name": "LightPink"
     },
+    "Brush": null,
     "IsChecked": true,
     "ToolTip": "UI_CONTROL_MED / Trace17",
     "Visibility": 0
@@ -1368,6 +1416,7 @@
       "IsSystemColor": false,
       "Name": "SlateGray"
     },
+    "Brush": null,
     "IsChecked": true,
     "ToolTip": "UTILITY_MED / Trace18",
     "Visibility": 0
@@ -1396,6 +1445,7 @@
       "IsSystemColor": false,
       "Name": "0"
     },
+    "Brush": null,
     "IsChecked": true,
     "ToolTip": "OPERATION_LOW / DEFAULT / Trace19",
     "Visibility": 0
@@ -1424,6 +1474,7 @@
       "IsSystemColor": false,
       "Name": "Plum"
     },
+    "Brush": null,
     "IsChecked": true,
     "ToolTip": "APPLICATION_SESSION_LOW / Trace20",
     "Visibility": 0
@@ -1452,6 +1503,7 @@
       "IsSystemColor": false,
       "Name": "Orange"
     },
+    "Brush": null,
     "IsChecked": true,
     "ToolTip": "SYSTEMCONFIG_LOW / Trace21",
     "Visibility": 0
@@ -1480,6 +1532,7 @@
       "IsSystemColor": false,
       "Name": "Chocolate"
     },
+    "Brush": null,
     "IsChecked": true,
     "ToolTip": "FILE_DIR_IO_LOW / Trace22",
     "Visibility": 0
@@ -1508,6 +1561,7 @@
       "IsSystemColor": false,
       "Name": "Olive"
     },
+    "Brush": null,
     "IsChecked": true,
     "ToolTip": "DATABASE_IO_LOW / Trace23",
     "Visibility": 0
@@ -1536,6 +1590,7 @@
       "IsSystemColor": false,
       "Name": "Fuchsia"
     },
+    "Brush": null,
     "IsChecked": true,
     "ToolTip": "SECURITY_LOW / Trace24",
     "Visibility": 0
@@ -1564,6 +1619,7 @@
       "IsSystemColor": false,
       "Name": "0"
     },
+    "Brush": null,
     "IsChecked": true,
     "ToolTip": "CLEAR_INITIALIZE / Trace25",
     "Visibility": 0
@@ -1592,6 +1648,7 @@
       "IsSystemColor": false,
       "Name": "DarkCyan"
     },
+    "Brush": null,
     "IsChecked": true,
     "ToolTip": "EASESYS_IO_LOW / Trace26",
     "Visibility": 0
@@ -1620,6 +1677,7 @@
       "IsSystemColor": false,
       "Name": "LightPink"
     },
+    "Brush": null,
     "IsChecked": true,
     "ToolTip": "UI_CONTROL_LOW / Trace27",
     "Visibility": 0
@@ -1648,6 +1706,7 @@
       "IsSystemColor": false,
       "Name": "SlateGray"
     },
+    "Brush": null,
     "IsChecked": true,
     "ToolTip": "UTILITY_LOW / Trace28",
     "Visibility": 0
@@ -1676,6 +1735,7 @@
       "IsSystemColor": false,
       "Name": "0"
     },
+    "Brush": null,
     "IsChecked": true,
     "ToolTip": "Trace29",
     "Visibility": 0

@@ -1,12 +1,15 @@
 ﻿using System.Drawing;
 using System.Windows;
 using JSONConsoleApp.jsonDeserializeClass;
+using System;
 using VNC.Core.Mvvm;
+using System.Windows.Media;
 
 namespace JSONConsoleApp
 {
     public class LoggingLevel : INPCBase
     {
+        private Brush _brush;
         private string _label;
         public string Label
         {
@@ -24,8 +27,8 @@ namespace JSONConsoleApp
         }
 
         //private Color _labelColor = Color.Black;
-        private Color _labelColor;
-        public Color LabelColor
+        private System.Drawing.Color _labelColor;
+        public System.Drawing.Color LabelColor
         {
             get => _labelColor;
             set
@@ -41,8 +44,8 @@ namespace JSONConsoleApp
         }
 
         //private Color _color = Color.FromArgb(200, 200, 200);
-        private Color _color;
-        public Color Color
+        private System.Drawing.Color _color;
+        public System.Drawing.Color Color
         {
             get => _color;
             set
@@ -56,6 +59,20 @@ namespace JSONConsoleApp
                 OnPropertyChanged();
             }
         }
+
+        
+        public Brush Brush
+        {
+            get => _brush;
+            set
+            {
+                if (_brush == value)
+                    return;
+                _brush = value;
+                OnPropertyChanged();
+            }
+        }
+        
 
         private bool _isChecked = true;
         public bool IsChecked
