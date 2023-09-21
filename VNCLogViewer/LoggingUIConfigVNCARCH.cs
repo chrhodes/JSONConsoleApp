@@ -1,8 +1,6 @@
 ﻿using System.Drawing;
-using System.Windows;
-using JSONConsoleApp.jsonDeserializeClass;
 
-namespace JSONConsoleApp
+namespace JSONConsoleApp.VNCLogViewer
 {
     public class LoggingUIConfigVNCARCH : LoggingUIConfig
     {

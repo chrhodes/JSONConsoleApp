@@ -1,8 +1,7 @@
 ﻿using System.Drawing;
 using System.Windows;
-using JSONConsoleApp.jsonDeserializeClass;
 
-namespace JSONConsoleApp
+namespace JSONConsoleApp.VNCLogViewer
 {
     public class LoggingUIConfigMINSK : LoggingUIConfig
     {
@@ -40,6 +39,6 @@ namespace JSONConsoleApp
             //Trace27 = new LoggingLevel { Label = "Trace27", Visibility = Visibility.Visible, Color = Color.FromArgb(200, 200, 200), IsChecked = true, ToolTip = "Trace27" };
             //Trace28 = new LoggingLevel { Label = "Trace28", Visibility = Visibility.Visible, Color = Color.FromArgb(200, 200, 200), IsChecked = true, ToolTip = "Trace28" };
             //Trace29 = new LoggingLevel { Label = "Trace29", Visibility = Visibility.Visible, Color = Color.FromArgb(200, 200, 200), IsChecked = true, ToolTip = "Trace29" };
-    }
+        }
     }
 }

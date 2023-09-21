@@ -1,11 +1,9 @@
-﻿using System.Drawing;
-using System.Windows;
-using JSONConsoleApp.jsonDeserializeClass;
-using System;
-using VNC.Core.Mvvm;
+﻿using System.Windows;
 using System.Windows.Media;
 
-namespace JSONConsoleApp
+using VNC.Core.Mvvm;
+
+namespace JSONConsoleApp.VNCLogViewer
 {
     public class LoggingLevel : INPCBase
     {
@@ -60,7 +58,7 @@ namespace JSONConsoleApp
             }
         }
 
-        
+
         public Brush Brush
         {
             get => _brush;
@@ -72,7 +70,7 @@ namespace JSONConsoleApp
                 OnPropertyChanged();
             }
         }
-        
+
 
         private bool _isChecked = true;
         public bool IsChecked
@@ -107,7 +105,7 @@ namespace JSONConsoleApp
         }
 
         private Visibility _visibility = Visibility.Visible;
-        public System.Windows.Visibility Visibility
+        public Visibility Visibility
         {
             get => _visibility;
             set

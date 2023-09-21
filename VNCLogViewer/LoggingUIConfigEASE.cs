@@ -1,8 +1,6 @@
 ﻿using System.Drawing;
-using System.Windows;
-using JSONConsoleApp.jsonDeserializeClass;
 
-namespace JSONConsoleApp
+namespace JSONConsoleApp.VNCLogViewer
 {
     public class LoggingUIConfigEASE : LoggingUIConfig
     {
@@ -24,7 +22,7 @@ namespace JSONConsoleApp
             Trace07 = new LoggingLevel { Label = "10007", LabelColor = Color.LightPink, Color = Color.LightPink, ToolTip = "UI_CONTROL / Trace07" };
             Trace08 = new LoggingLevel { Label = "10008", LabelColor = Color.SlateGray, Color = Color.SlateGray, ToolTip = "UTILITY / Trace08" };
             Trace09 = new LoggingLevel { Label = "10009", ToolTip = "OPERATION / Trace09" };
-                                                          
+
             Trace10 = new LoggingLevel { Label = "10010", LabelColor = Color.Plum, Color = Color.Plum, ToolTip = "APPLICATION_SESSION / Trace10" };
             Trace11 = new LoggingLevel { Label = "10011", LabelColor = Color.Orange, Color = Color.Orange, ToolTip = "SYSTEM_CONFIG / Trace11" };
             Trace12 = new LoggingLevel { Label = "10012", LabelColor = Color.Chocolate, Color = Color.Chocolate, ToolTip = "FILE_DIR_IO / Trace12" };
@@ -35,7 +33,7 @@ namespace JSONConsoleApp
             Trace17 = new LoggingLevel { Label = "10017", LabelColor = Color.LightPink, Color = Color.LightPink, ToolTip = "UI_CONTROL_MED / Trace17" };
             Trace18 = new LoggingLevel { Label = "10018", LabelColor = Color.SlateGray, Color = Color.SlateGray, ToolTip = "UTILITY_MED / Trace18" };
             Trace19 = new LoggingLevel { Label = "10019", ToolTip = "OPERATION_LOW / DEFAULT / Trace19" };
-                                                         
+
             Trace20 = new LoggingLevel { Label = "10020", LabelColor = Color.Plum, Color = Color.Plum, ToolTip = "APPLICATION_SESSION_LOW / Trace20" };
             Trace21 = new LoggingLevel { Label = "10021", LabelColor = Color.Orange, Color = Color.Orange, ToolTip = "SYSTEMCONFIG_LOW / Trace21" };
             Trace22 = new LoggingLevel { Label = "10022", LabelColor = Color.Chocolate, Color = Color.Chocolate, ToolTip = "FILE_DIR_IO_LOW / Trace22" };

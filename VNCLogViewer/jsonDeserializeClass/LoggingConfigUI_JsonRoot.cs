@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace JSONConsoleApp.jsonDeserializeClass
+namespace JSONConsoleApp.VNCLogViewer.jsonDeserializeClass
 {
     public class ColorX
     {

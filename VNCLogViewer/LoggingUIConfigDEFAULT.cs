@@ -1,4 +1,4 @@
-﻿namespace JSONConsoleApp
+﻿namespace JSONConsoleApp.VNCLogViewer
 {
     public class LoggingUIConfigDEFAULT : LoggingUIConfig
     {
