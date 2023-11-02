@@ -2,8 +2,8 @@
 using System.IO;
 using System.Text.Json;
 using System.Windows.Media;
+
 using JSONConsoleApp.VNCLogViewer.jsonDeserializeClass;
-using JSONConsoleApp.VNCPhidget;
 
 namespace JSONConsoleApp.VNCLogViewer
 {

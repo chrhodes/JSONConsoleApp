@@ -1,0 +1,9 @@
+{
+  "ServoIndex": 0,
+  "Engaged": null,
+  "Acceleration": null,
+  "Velocity": null,
+  "TargetPosition": null,
+  "Duration": 1000,
+  "Loops": 1
+}
