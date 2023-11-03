@@ -4,13 +4,34 @@ namespace JSONConsoleApp
 {
     public class AdvancedServoStep
     {
+        /// <summary>
+        /// Index of servo on board 
+        /// </summary>
         public int ServoIndex { get; set; }
 
+        /// <summary>
+        /// Engage Servo (optional)
+        /// </summary>
         public bool? Engaged { get; set; }
+
+        /// <summary>
+        /// Servo Acceleration (optional)
+        /// </summary>
         public Double? Acceleration { get; set; }
-        public Double? Velocity { get; set; }
+
+        /// <summary>
+        /// Servo Velocity (optional)
+        /// </summary>
+        public Double? VelocityLimit { get; set; }
+
+        /// <summary>
+        /// TargetPosition (optional)
+        /// </summary>
         public double? TargetPosition { get; set; }
-        public Int32 Duration { get; set; } = 1000; // ms
-        public Int32 Loops { get; set; } = 1;       // 1 Loop
+
+        /// <summary>
+        /// Duration of step in ms (sleep time after step)
+        /// </summary>
+        public Int32? Duration { get; set; } // ms
     }
 }
