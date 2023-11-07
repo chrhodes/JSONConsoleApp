@@ -7,6 +7,7 @@
             new AdvancedServoPerformance
             {
                 Name="PerformanceServo0",
+                ContinueWith="PerformanceServo1",
 
                 AdvancedServoSteps = new[]
                 {
@@ -20,6 +21,7 @@
             new AdvancedServoPerformance
             {
                 Name="PerformanceServo1",
+                ContinueWith="PerformanceServo2",
 
                 AdvancedServoSteps = new[]
                 {
