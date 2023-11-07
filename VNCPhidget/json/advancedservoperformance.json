@@ -9,7 +9,9 @@
       "Engaged": true,
       "Acceleration": null,
       "VelocityLimit": null,
+      "PositionMin": null,
       "TargetPosition": 90,
+      "PositionMax": null,
       "Duration": 1000
     },
     {
@@ -17,7 +19,9 @@
       "Engaged": true,
       "Acceleration": null,
       "VelocityLimit": null,
+      "PositionMin": null,
       "TargetPosition": 95,
+      "PositionMax": null,
       "Duration": 1000
     },
     {
@@ -25,7 +29,9 @@
       "Engaged": true,
       "Acceleration": null,
       "VelocityLimit": null,
+      "PositionMin": null,
       "TargetPosition": 100,
+      "PositionMax": null,
       "Duration": 2000
     },
     {
@@ -33,7 +39,9 @@
       "Engaged": true,
       "Acceleration": null,
       "VelocityLimit": null,
+      "PositionMin": null,
       "TargetPosition": 95,
+      "PositionMax": null,
       "Duration": 500
     },
     {
@@ -41,7 +49,9 @@
       "Engaged": true,
       "Acceleration": null,
       "VelocityLimit": null,
+      "PositionMin": null,
       "TargetPosition": 90,
+      "PositionMax": null,
       "Duration": 500
     }
   ]

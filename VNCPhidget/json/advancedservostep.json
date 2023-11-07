@@ -3,6 +3,8 @@
   "Engaged": null,
   "Acceleration": null,
   "VelocityLimit": null,
+  "PositionMin": null,
   "TargetPosition": null,
+  "PositionMax": null,
   "Duration": null
 }
