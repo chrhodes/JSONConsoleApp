@@ -5,12 +5,36 @@
       "IPAddress": "127.0.0.1",
       "Port": 5001,
       "Enable": true,
+      "AdvancedServos": [
+        {
+          "Name": "ADVANCEDSERVO NAME",
+          "SerialNumber": 1234,
+          "Open": true
+        },
+        {
+          "Name": "ADVANCEDSERVO NAME",
+          "SerialNumber": 5678,
+          "Open": false
+        }
+      ],
       "InterfaceKits": [
         {
           "Name": "InterfaceKit 1",
-          "SerialNumber": "46049",
-          "Enable": true,
+          "SerialNumber": 46049,
+          "Open": true,
           "Embedded": false
+        }
+      ],
+      "Steppers": [
+        {
+          "Name": "STEPPER NAME",
+          "SerialNumber": 1234,
+          "Open": true
+        },
+        {
+          "Name": "STEPPER NAME",
+          "SerialNumber": 5678,
+          "Open": false
         }
       ]
     },
@@ -19,12 +43,36 @@
       "IPAddress": "192.168.150.11",
       "Port": 5001,
       "Enable": true,
+      "AdvancedServos": [
+        {
+          "Name": "ADVANCEDSERVO NAME",
+          "SerialNumber": 1234,
+          "Open": true
+        },
+        {
+          "Name": "ADVANCEDSERVO NAME",
+          "SerialNumber": 5678,
+          "Open": false
+        }
+      ],
       "InterfaceKits": [
         {
           "Name": "InterfaceKit psbc11",
-          "SerialNumber": "46049",
-          "Enable": true,
+          "SerialNumber": 46049,
+          "Open": true,
           "Embedded": true
+        }
+      ],
+      "Steppers": [
+        {
+          "Name": "STEPPER NAME",
+          "SerialNumber": 1234,
+          "Open": true
+        },
+        {
+          "Name": "STEPPER NAME",
+          "SerialNumber": 5678,
+          "Open": false
         }
       ]
     },
@@ -33,12 +81,36 @@
       "IPAddress": "192.168.150.21",
       "Port": 5001,
       "Enable": true,
+      "AdvancedServos": [
+        {
+          "Name": "ADVANCEDSERVO NAME",
+          "SerialNumber": 1234,
+          "Open": true
+        },
+        {
+          "Name": "ADVANCEDSERVO NAME",
+          "SerialNumber": 5678,
+          "Open": false
+        }
+      ],
       "InterfaceKits": [
         {
           "Name": "InterfaceKit psbc21",
-          "SerialNumber": "48301",
-          "Enable": true,
+          "SerialNumber": 48301,
+          "Open": true,
           "Embedded": true
+        }
+      ],
+      "Steppers": [
+        {
+          "Name": "STEPPER NAME",
+          "SerialNumber": 1234,
+          "Open": true
+        },
+        {
+          "Name": "STEPPER NAME",
+          "SerialNumber": 5678,
+          "Open": false
         }
       ]
     },
@@ -47,12 +119,36 @@
       "IPAddress": "192.168.150.22",
       "Port": 5001,
       "Enable": true,
+      "AdvancedServos": [
+        {
+          "Name": "ADVANCEDSERVO NAME",
+          "SerialNumber": 1234,
+          "Open": true
+        },
+        {
+          "Name": "ADVANCEDSERVO NAME",
+          "SerialNumber": 5678,
+          "Open": false
+        }
+      ],
       "InterfaceKits": [
         {
           "Name": "InterfaceKit psbc22",
-          "SerialNumber": "251831",
-          "Enable": true,
+          "SerialNumber": 251831,
+          "Open": true,
           "Embedded": true
+        }
+      ],
+      "Steppers": [
+        {
+          "Name": "STEPPER NAME",
+          "SerialNumber": 1234,
+          "Open": true
+        },
+        {
+          "Name": "STEPPER NAME",
+          "SerialNumber": 5678,
+          "Open": false
         }
       ]
     },
@@ -61,12 +157,36 @@
       "IPAddress": "192.168.150.23",
       "Port": 5001,
       "Enable": true,
+      "AdvancedServos": [
+        {
+          "Name": "ADVANCEDSERVO NAME",
+          "SerialNumber": 1234,
+          "Open": true
+        },
+        {
+          "Name": "ADVANCEDSERVO NAME",
+          "SerialNumber": 5678,
+          "Open": false
+        }
+      ],
       "InterfaceKits": [
         {
           "Name": "InterfaceKit psbc23",
-          "SerialNumber": "48284",
-          "Enable": true,
+          "SerialNumber": 48284,
+          "Open": true,
           "Embedded": true
+        }
+      ],
+      "Steppers": [
+        {
+          "Name": "STEPPER NAME",
+          "SerialNumber": 1234,
+          "Open": true
+        },
+        {
+          "Name": "STEPPER NAME",
+          "SerialNumber": 5678,
+          "Open": false
         }
       ]
     }

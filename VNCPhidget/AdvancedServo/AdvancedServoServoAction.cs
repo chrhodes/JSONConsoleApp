@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace JSONConsoleApp
+namespace JSONConsoleApp.VNCPhidget
 {
-    public class AdvancedServoStep
+    public class AdvancedServoServoAction
     {
         /// <summary>
         /// Index of servo on board 

@@ -9,10 +9,22 @@ namespace JSONConsoleApp.VNCPhidget
         public int Port { get; set; } = 5001;
         public bool Enable { get; set; } = true;
 
+        public AdvancedServo[] AdvancedServos { get; set; } = new[]
+        {
+            new AdvancedServo { SerialNumber = 1234, Open = true },
+            new AdvancedServo { SerialNumber = 5678, Open = false }
+        };
+
         public InterfaceKit[] InterfaceKits { get; set; } = new[]
-        { 
-            new InterfaceKit { Name = "InterfaceKit 1", SerialNumber = "1234", Embedded = true, Enable = true },
-            new InterfaceKit { Name = "InterfaceKit 2", SerialNumber = "5678", Embedded = false, Enable = false }
+        {
+            new InterfaceKit { SerialNumber = 1234, Embedded = true, Open = true },
+            new InterfaceKit { SerialNumber = 5678, Embedded = false, Open = false }
+        };
+
+        public Stepper[] Steppers { get; set; } = new[]
+        {
+            new Stepper { SerialNumber = 1234, Open = true },
+            new Stepper { SerialNumber = 5678, Open = false }
         };
     }
 }

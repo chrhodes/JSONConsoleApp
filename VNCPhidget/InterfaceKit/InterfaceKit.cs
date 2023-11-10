@@ -5,8 +5,8 @@ namespace JSONConsoleApp.VNCPhidget
     public class InterfaceKit
     {
         public string Name { get; set; } = "INTERFACEKIT NAME";
-        public string SerialNumber { get; set; } = "12345";
-        public bool Enable { get; set; } = true;
+        public Int32 SerialNumber { get; set; } = 12345;
+        public bool Open { get; set; } = true;
         public bool Embedded { get; set; } = false;
     }
 }

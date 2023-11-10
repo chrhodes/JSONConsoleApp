@@ -24,8 +24,10 @@ namespace JSONConsoleApp
             JsonHelper.ConvertObject<Sensor>(new Sensor(), "sensor.json");
             JsonHelper.ConvertObject<PhidgetConfig>(new PhidgetConfig(), "phidgetconfig.json");
 
-            JsonHelper.ConvertObject<AdvancedServoStep>(new AdvancedServoStep(), "advancedservostep.json");
+            JsonHelper.ConvertObject<AdvancedServoServoAction>(new AdvancedServoServoAction(), "advancedservoservoaction.json");
+            JsonHelper.ConvertObject<AdvancedServoSequence>(new AdvancedServoSequence(), "advancedservosequence.json");
             JsonHelper.ConvertObject<AdvancedServoPerformance>(new AdvancedServoPerformance(), "advancedservoperformance.json");
+
             JsonHelper.ConvertObject<AdvancedServoPerformanceConfig>(new AdvancedServoPerformanceConfig(), "advancedservoperformancesconfig.json");
         }
 
