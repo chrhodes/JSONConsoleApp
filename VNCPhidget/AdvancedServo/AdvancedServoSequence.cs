@@ -39,7 +39,7 @@ namespace JSONConsoleApp
         public Int32 Loops { get; set; } = 1;
 
         /// <summary>
-        /// Number of loops of Performance
+        /// Play ServoAction[] in Parallel or Sequential (false)
         /// </summary>
         public Boolean PlayInParallel { get; set; } = false;
 
