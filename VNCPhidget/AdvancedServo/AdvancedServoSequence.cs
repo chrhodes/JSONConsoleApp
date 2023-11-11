@@ -47,7 +47,7 @@ namespace JSONConsoleApp
         /// Name of performance to invoke at end of performance (optional)
         /// none, null, or empty string to stop
         /// </summary>
-        public string? ContinueWith { get; set; } = "CONTINUE WITH SEQUENCE NAME";
+        public string? ContinueWith { get; set; } = "";
 
         /// <summary>
         /// Array of steps in performance
