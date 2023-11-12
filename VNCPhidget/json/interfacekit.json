@@ -1,6 +1,6 @@
 {
   "Name": "INTERFACEKIT NAME",
   "SerialNumber": 12345,
-  "Open": true,
+  "Open": false,
   "Embedded": false
 }

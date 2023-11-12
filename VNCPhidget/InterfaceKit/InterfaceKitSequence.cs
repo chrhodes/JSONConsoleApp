@@ -5,7 +5,7 @@ using JSONConsoleApp.VNCPhidget;
 namespace JSONConsoleApp
 {
 
-    public class AdvancedServoSequence
+    public class InterfaceKitSequence
     {
         public Host Host { get; set; }
             = new Host
@@ -13,13 +13,15 @@ namespace JSONConsoleApp
                 Name = "localhost",
                 IPAddress = "127.0.0.1",
                 Port = 5001,
-                AdvancedServos = new[]
+                InterfaceKits = new[]
                 {
-                    new AdvancedServo 
+                    new InterfaceKit 
                     { 
-                        Name = "AdvancedServo 1", 
+                        Name = "InterfaceKit 1", 
                         SerialNumber = 99415,                         
-                        Open = true }
+                        Open = true,
+                        Embedded = false
+                    }
                 }
             };
 
@@ -52,13 +54,13 @@ namespace JSONConsoleApp
         /// <summary>
         /// Array of steps in performance
         /// </summary>
-        public AdvancedServoServoAction[] AdvancedServoServoActions { get; set; } = new[] // AdvancedServoStep[0];
+        public InterfaceKitAction[] InterfaceKitActions { get; set; } = new[] // InterfaceKitAction[0];
         {
-            new AdvancedServoServoAction { ServoIndex = 0, Engaged = true, TargetPosition = 90, Duration=1000 },
-            new AdvancedServoServoAction { ServoIndex = 0, Engaged = true, TargetPosition = 95, Duration=1000 },
-            new AdvancedServoServoAction { ServoIndex = 0, Engaged = true, TargetPosition = 100, Duration = 2000 },
-            new AdvancedServoServoAction { ServoIndex = 0, Engaged = true, TargetPosition = 95, Duration = 500 },
-            new AdvancedServoServoAction { ServoIndex = 0, Engaged = true, TargetPosition = 90, Duration = 500 }
+            new InterfaceKitAction { ServoIndex = 0, Engaged = true, TargetPosition = 90, Duration=1000 },
+            new InterfaceKitAction { ServoIndex = 0, Engaged = true, TargetPosition = 95, Duration=1000 },
+            new InterfaceKitAction { ServoIndex = 0, Engaged = true, TargetPosition = 100, Duration = 2000 },
+            new InterfaceKitAction { ServoIndex = 0, Engaged = true, TargetPosition = 95, Duration = 500 },
+            new InterfaceKitAction { ServoIndex = 0, Engaged = true, TargetPosition = 90, Duration = 500 }
         };
     }
 }
