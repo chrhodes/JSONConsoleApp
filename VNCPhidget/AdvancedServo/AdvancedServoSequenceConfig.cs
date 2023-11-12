@@ -4,7 +4,7 @@ namespace JSONConsoleApp
 {
     public class AdvancedServoSequenceConfig
     {
-        AdvancedServoSequence[] AdvancedServoSequences = new[]
+        public AdvancedServoSequence[] AdvancedServoSequences = new[]
         {
             new AdvancedServoSequence
             {
