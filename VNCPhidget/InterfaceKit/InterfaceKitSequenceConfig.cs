@@ -68,7 +68,7 @@ namespace JSONConsoleApp.VNCPhidget
                     },
                 },
                 Name="psbc21_SequenceIK 1",
-                ContinueWith="",
+                ContinueWith="psbc22_SequenceIK 1",
 
                 InterfaceKitActions = new[]
                 {
@@ -119,7 +119,7 @@ namespace JSONConsoleApp.VNCPhidget
                     },
                 },
                 Name="psbc22_SequenceIK 1",
-                ContinueWith="",
+                ContinueWith="psbc23_SequenceIK 1",
 
                 InterfaceKitActions = new[]
                 {

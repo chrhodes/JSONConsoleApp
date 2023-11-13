@@ -197,6 +197,83 @@
       "Description": "SEQUENCE DESCRIPTION",
       "Loops": 1,
       "PlayInParallel": false,
+      "ContinueWith": "psbc22_SequenceIK 1",
+      "InterfaceKitActions": [
+        {
+          "DigitalOutIndex": 0,
+          "DigitalOut": true,
+          "Duration": 500
+        },
+        {
+          "DigitalOutIndex": 0,
+          "DigitalOut": false,
+          "Duration": 500
+        },
+        {
+          "DigitalOutIndex": 1,
+          "DigitalOut": true,
+          "Duration": 500
+        },
+        {
+          "DigitalOutIndex": 1,
+          "DigitalOut": false,
+          "Duration": 500
+        },
+        {
+          "DigitalOutIndex": 2,
+          "DigitalOut": true,
+          "Duration": 500
+        },
+        {
+          "DigitalOutIndex": 2,
+          "DigitalOut": false,
+          "Duration": 500
+        }
+      ]
+    },
+    {
+      "Host": {
+        "Name": "psbc21",
+        "IPAddress": "192.168.150.21",
+        "Port": 5001,
+        "Enable": true,
+        "AdvancedServos": [
+          {
+            "Name": "ADVANCEDSERVO NAME",
+            "SerialNumber": 1234,
+            "Open": true
+          },
+          {
+            "Name": "ADVANCEDSERVO NAME",
+            "SerialNumber": 5678,
+            "Open": false
+          }
+        ],
+        "InterfaceKits": [
+          {
+            "Name": "psbc21 InterfaceKit",
+            "SerialNumber": 48301,
+            "Open": true,
+            "Embedded": true
+          }
+        ],
+        "Steppers": [
+          {
+            "Name": "STEPPER NAME",
+            "SerialNumber": 1234,
+            "Open": true
+          },
+          {
+            "Name": "STEPPER NAME",
+            "SerialNumber": 5678,
+            "Open": false
+          }
+        ]
+      },
+      "Name": "psbc21_SequenceIK 1 Parallel",
+      "Description": "SEQUENCE DESCRIPTION",
+      "Loops": 1,
+      "PlayInParallel": true,
       "ContinueWith": "",
       "InterfaceKitActions": [
         {
@@ -274,7 +351,7 @@
       "Description": "SEQUENCE DESCRIPTION",
       "Loops": 1,
       "PlayInParallel": false,
-      "ContinueWith": "",
+      "ContinueWith": "psbc23_SequenceIK 1",
       "InterfaceKitActions": [
         {
           "DigitalOutIndex": 0,

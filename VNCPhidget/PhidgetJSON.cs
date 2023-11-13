@@ -23,6 +23,7 @@ namespace JSONConsoleApp
             JsonHelper.ConvertObject<HostConfig>(new HostConfig(), "hostconfig.json");
 
             JsonHelper.ConvertObject<PerformanceConfig>(new PerformanceConfig(), "performanceconfig.json");
+            JsonHelper.ConvertObject<Performance>(new Performance(), "performance.json");
             JsonHelper.ConvertObject<PerformanceSequence>(new PerformanceSequence(), "performancesequence.json");
 
             JsonHelper.ConvertObject<AdvancedServo>(new AdvancedServo(), "advancedservo.json");
