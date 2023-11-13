@@ -34,7 +34,7 @@ namespace JSONConsoleApp
             JsonHelper.ConvertObject<InterfaceKit>(new InterfaceKit(), "interfacekit.json");
             JsonHelper.ConvertObject<InterfaceKitAction>(new InterfaceKitAction(), "interfacekitaction.json");
             JsonHelper.ConvertObject<InterfaceKitSequence>(new InterfaceKitSequence(), "interfacekitsequence.json");
-            JsonHelper.ConvertObject<InterfaceKitSequenceConfig>(new InterfaceKitSequenceConfig(), "interfacekitsequenceconfig");
+            JsonHelper.ConvertObject<InterfaceKitSequenceConfig>(new InterfaceKitSequenceConfig(), "interfacekitsequenceconfig.json");
 
             JsonHelper.ConvertObject<Sensor>(new Sensor(), "sensor.json");
 

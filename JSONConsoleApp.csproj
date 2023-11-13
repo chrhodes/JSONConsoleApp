@@ -12,8 +12,4 @@
     <PackageReference Include="VNC.Core" Version="2.1.0" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="VNCPhidget\json\" />
-  </ItemGroup>
-
 </Project>
