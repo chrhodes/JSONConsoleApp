@@ -1,8 +1,6 @@
 ﻿using System;
 
-using JSONConsoleApp.VNCPhidget;
-
-namespace JSONConsoleApp
+namespace JSONConsoleApp.VNCPhidget
 {
 
     public class StepperSequence

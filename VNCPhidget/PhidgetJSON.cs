@@ -22,6 +22,15 @@ namespace JSONConsoleApp
             JsonHelper.ConvertObject<Host>(new Host(), "host.json");
             JsonHelper.ConvertObject<HostConfig>(new HostConfig(), "hostconfig.json");
 
+            JsonHelper.ConvertObject<PerformanceConfig>(new PerformanceConfig(), "performanceconfig.json");
+            JsonHelper.ConvertObject<PerformanceSequence>(new PerformanceSequence(), "performancesequence.json");
+
+            JsonHelper.ConvertObject<AdvancedServo>(new AdvancedServo(), "advancedservo.json");
+            JsonHelper.ConvertObject<AdvancedServoServoAction>(new AdvancedServoServoAction(), "advancedservoservoaction.json");
+            JsonHelper.ConvertObject<AdvancedServoSequence>(new AdvancedServoSequence(), "advancedservosequence.json");
+            JsonHelper.ConvertObject<AdvancedServoSequenceConfig>(new AdvancedServoSequenceConfig(), "advancedservosequenceconfig.json");
+
+
             JsonHelper.ConvertObject<InterfaceKit>(new InterfaceKit(), "interfacekit.json");
             JsonHelper.ConvertObject<InterfaceKitAction>(new InterfaceKitAction(), "interfacekitaction.json");
             JsonHelper.ConvertObject<InterfaceKitSequence>(new InterfaceKitSequence(), "interfacekitsequence.json");
@@ -29,10 +38,6 @@ namespace JSONConsoleApp
 
             JsonHelper.ConvertObject<Sensor>(new Sensor(), "sensor.json");
 
-            JsonHelper.ConvertObject<AdvancedServo>(new AdvancedServo(), "advancedservo.json");
-            JsonHelper.ConvertObject<AdvancedServoServoAction>(new AdvancedServoServoAction(), "advancedservoservoaction.json");
-            JsonHelper.ConvertObject<AdvancedServoSequence>(new AdvancedServoSequence(), "advancedservosequence.json");
-            JsonHelper.ConvertObject<AdvancedServoSequenceConfig>(new AdvancedServoSequenceConfig(), "advancedservosequenceconfig.json");
 
             JsonHelper.ConvertObject<Stepper>(new Stepper(), "stepper.json");
             JsonHelper.ConvertObject<StepperAction>(new StepperAction(), "stepperaction.json");

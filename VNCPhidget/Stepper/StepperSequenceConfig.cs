@@ -1,10 +1,9 @@
-﻿using JSONConsoleApp.VNCPhidget;
-
-namespace JSONConsoleApp
+﻿
+namespace JSONConsoleApp.VNCPhidget
 {
     public class StepperSequenceConfig
     {
-        StepperSequence[] StepperSequences = new[]
+        public StepperSequence[] StepperSequences = new[]
         {
             new StepperSequence
             {
