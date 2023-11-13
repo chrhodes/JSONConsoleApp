@@ -10,6 +10,10 @@
                 InterfaceKits = new[]
                 {
                     new InterfaceKit { Name = "InterfaceKit 1", SerialNumber = 46049, Embedded = false, Open = true }
+                },
+                AdvancedServos = new[]
+                {
+                    new AdvancedServo { Name = "AdvancedServo1", SerialNumber = 99415, Open = true }
                 }
             },
             new Host
@@ -18,6 +22,10 @@
                 InterfaceKits = new[]
                 {
                     new InterfaceKit { Name = "InterfaceKit psbc11", SerialNumber = 46049, Embedded = true, Open = true }
+                },
+                AdvancedServos = new[]
+                {
+                    new AdvancedServo { Name = "AdvancedServo1", SerialNumber = 99415, Open = true }
                 }
             },
             new Host
@@ -26,6 +34,10 @@
                 InterfaceKits = new[]
                 {
                     new InterfaceKit { Name = "InterfaceKit psbc21", SerialNumber = 48301, Embedded = true, Open = true }
+                },
+                AdvancedServos = new[]
+                {
+                    new AdvancedServo { Name = "AdvancedServo1", SerialNumber = 99415, Open = true }
                 }
             },
             new Host
@@ -34,6 +46,10 @@
                 InterfaceKits = new[]
                 {
                     new InterfaceKit { Name = "InterfaceKit psbc22", SerialNumber = 251831, Embedded = true, Open = true },
+                },
+                AdvancedServos = new[]
+                {
+                    new AdvancedServo { Name = "AdvancedServo1", SerialNumber = 99415, Open = true }
                 }
             },
             new Host
@@ -42,6 +58,10 @@
                 InterfaceKits = new[]
                 {
                     new InterfaceKit { Name = "InterfaceKit psbc23", SerialNumber = 48284, Embedded = true, Open = true }
+                },
+                AdvancedServos = new[]
+                {
+                    new AdvancedServo { Name = "AdvancedServo1", SerialNumber = 99415, Open = true }
                 }
             }
 
