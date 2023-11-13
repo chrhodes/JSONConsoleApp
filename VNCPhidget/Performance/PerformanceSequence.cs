@@ -29,6 +29,6 @@ namespace JSONConsoleApp.VNCPhidget
         /// Name of performanceSequence to invoke at end of performanceSequence (optional)
         /// none or null to stop
         /// </summary>
-        public PerformanceSequence? ContinueWith { get; set; }
+        public PerformanceSequence? NextPerformance { get; set; }
     }
 }
