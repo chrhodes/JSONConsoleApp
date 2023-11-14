@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace JSONConsoleApp.VNCPhidget
+﻿namespace JSONConsoleApp.VNCPhidget
 {
     public class Host
     {

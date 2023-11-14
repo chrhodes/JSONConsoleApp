@@ -13,50 +13,39 @@ namespace JSONConsoleApp.VNCPhidget
                 Port = 5001,
                 AdvancedServos = new[]
                 {
-                    new AdvancedServo 
-                    { 
-                        Name = "AdvancedServo 1", 
-                        SerialNumber = 99415,                         
-                        Open = true }
+                    new AdvancedServo { Name = "AdvancedServo 1", SerialNumber = 99415, Open = true }
                 }
             };
 
         /// <summary>
-        /// Name of performance
+        /// Name of sequence
         /// </summary>
         public string Name { get; set; } = "SEQUENCE NAME";
 
         /// <summary>
-        /// Description of performance
+        /// Description of sequence
         /// </summary>
         public string Description { get; set; } = "SEQUENCE DESCRIPTION";
 
         /// <summary>
-        /// Number of loops of Performance
+        /// Number of loops of sequence
         /// </summary>
         public Int32 Loops { get; set; } = 1;
 
         /// <summary>
-        /// Play ServoAction[] in Parallel or Sequential (false)
+        /// Play AdvancedServoServoAction[] in Parallel or Sequential (false)
         /// </summary>
-        public Boolean PlayInParallel { get; set; } = false;
+        public Boolean PlayActionsInParallel { get; set; } = false;
 
         /// <summary>
-        /// Name of performance to invoke at end of performance (optional)
-        /// none, null, or empty string to stop
+        /// Name of PerformanceSequence to invoke at end of sequence loops (optional)
+        /// none or null to stop
         /// </summary>
-        public string? ContinueWith { get; set; } = "";
+        public PerformanceSequence? NextSequence { get; set; }
 
         /// <summary>
-        /// Array of steps in performance
+        /// Array of actions in sequence
         /// </summary>
-        public AdvancedServoServoAction[] AdvancedServoServoActions { get; set; } = new[] // AdvancedServoStep[0];
-        {
-            new AdvancedServoServoAction { ServoIndex = 0, Engaged = true, TargetPosition = 90, Duration=1000 },
-            new AdvancedServoServoAction { ServoIndex = 0, Engaged = true, TargetPosition = 95, Duration=1000 },
-            new AdvancedServoServoAction { ServoIndex = 0, Engaged = true, TargetPosition = 100, Duration = 2000 },
-            new AdvancedServoServoAction { ServoIndex = 0, Engaged = true, TargetPosition = 95, Duration = 500 },
-            new AdvancedServoServoAction { ServoIndex = 0, Engaged = true, TargetPosition = 90, Duration = 500 }
-        };
+        public AdvancedServoServoAction[] AdvancedServoServoActions { get; set; }
     }
 }

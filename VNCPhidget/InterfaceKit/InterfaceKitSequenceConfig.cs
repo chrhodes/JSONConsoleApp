@@ -18,7 +18,6 @@ namespace JSONConsoleApp.VNCPhidget
                     },
                 },
                 Name="localhost_SequenceIK 1",
-                ContinueWith="",
 
                 InterfaceKitActions = new[]
                 {
@@ -43,7 +42,6 @@ namespace JSONConsoleApp.VNCPhidget
                     },
                 },
                 Name="psbc11_SequenceIK 1",
-                ContinueWith="",
 
                 InterfaceKitActions = new[]
                 {
@@ -68,7 +66,7 @@ namespace JSONConsoleApp.VNCPhidget
                     },
                 },
                 Name="psbc21_SequenceIK 1",
-                ContinueWith="psbc22_SequenceIK 1",
+                NextSequence = new PerformanceSequence { Name = "psbc22_SequenceIK 1", SequenceType = "IK", Loops = 1 },
 
                 InterfaceKitActions = new[]
                 {
@@ -93,8 +91,7 @@ namespace JSONConsoleApp.VNCPhidget
                     },
                 },
                 Name="psbc21_SequenceIK 1 Parallel",
-                PlayInParallel = true,
-                ContinueWith="",
+                PlayActionsInParallel = true,
 
                 InterfaceKitActions = new[]
                 {
@@ -119,7 +116,7 @@ namespace JSONConsoleApp.VNCPhidget
                     },
                 },
                 Name="psbc22_SequenceIK 1",
-                ContinueWith="psbc23_SequenceIK 1",
+                NextSequence = new PerformanceSequence { Name = "psbc23_SequenceIK 1", SequenceType = "IK", Loops = 1 },
 
                 InterfaceKitActions = new[]
                 {
@@ -144,7 +141,6 @@ namespace JSONConsoleApp.VNCPhidget
                     },
                 },
                 Name="psbc23_SequenceIK 1",
-                ContinueWith="",
 
                 InterfaceKitActions = new[]
                 {

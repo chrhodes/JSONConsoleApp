@@ -1,29 +1,16 @@
-﻿using System;
-
-namespace JSONConsoleApp.VNCPhidget
+﻿namespace JSONConsoleApp.VNCPhidget
 {
     public class PerformanceConfig
     {
         /// <summary>
-        /// Name of Sequence
+        /// Name of file
         /// </summary>
-        public string Name { get; set; } = "PERFORMANCE NAME";
+        public string Name { get; set; } = "PerformanceConfig NAME";
 
         /// <summary>
-        /// Description of Sequence
+        /// Description of this file
         /// </summary>
-        public string Description { get; set; } = "PERFORMANCE DESCRIPTION";
-
-        ///// <summary>
-        ///// Number of loops of Sequence
-        ///// </summary>
-        //public Int32 Loops { get; set; } = 1;
-
-        ///// <summary>
-        ///// Name of performanceSequence to invoke at end of performanceSequence (optional)
-        ///// none or null to stop
-        ///// </summary>
-        //public PerformanceSequence? NextPerformance { get; set; }
+        public string Description { get; set; } = "PerformanceConfig DESCRIPTION";
 
         public Performance[] Performances { get; set; } = new[] // PerformanceSequence[0];
         {
@@ -34,22 +21,8 @@ namespace JSONConsoleApp.VNCPhidget
 
                 PerformanceSequences = new[] // PerformanceSequence[0];
                 {
-                    new PerformanceSequence
-                    {
-                        Name = "psbc21_SequenceServo0",
-                        Description = "psbc21_SequenceServo0 1 Description",
-                        Loops = 1,
-                        SequenceType = "AS",
-                        NextSequence = new PerformanceSequence { Name = "psbc21_SequenceServo0P Configure and Engage", SequenceType = "AS"}
-                    },
-                    new PerformanceSequence
-                    {
-                        Name = "psbc21_SequenceServo0P Configure and Engage",
-                        Description = "psbc21_SequenceServo0P Configure and Engage",
-                        Loops = 1,
-                        SequenceType = "AS",
-                        NextSequence = null
-                    }
+                    new PerformanceSequence { Name = "psbc21_SequenceServo0", SequenceType = "AS", Loops = 1 },
+                    new PerformanceSequence { Name = "psbc21_SequenceServo0P Configure and Engage", SequenceType = "AS", Loops = 1 }
                 }
             },
             new Performance
@@ -58,32 +31,11 @@ namespace JSONConsoleApp.VNCPhidget
                 Description = "psbc21_IK Performance 1 Description",
                 PlayInParallel = true,
 
-                PerformanceSequences = new[] // PerformanceSequence[0];
+                PerformanceSequences = new[]
                 {
-                    new PerformanceSequence
-                    {
-                        Name = "psbc21_SequenceIK 1",
-                        Description = "psbc21_SequenceIK 1 Description",
-                        Loops = 1,
-                        SequenceType = "IK",
-                        NextSequence = null
-                    },
-                    new PerformanceSequence
-                    {
-                        Name = "psbc22_SequenceIK 1",
-                        Description = "psbc22_SequenceIK 1 Description",
-                        Loops = 1,
-                        SequenceType = "IK",
-                        NextSequence = null
-                    },
-                    new PerformanceSequence
-                    {
-                        Name = "psbc23_SequenceIK 1",
-                        Description = "psbc23_SequenceIK 1 Description",
-                        Loops = 1,
-                        SequenceType = "IK",
-                        NextSequence = null
-                    }
+                    new PerformanceSequence { Name = "psbc21_SequenceIK 1", SequenceType = "IK", Loops = 1 },
+                    new PerformanceSequence { Name = "psbc22_SequenceIK 1", SequenceType = "IK", Loops = 1 },
+                    new PerformanceSequence { Name = "psbc23_SequenceIK 1", SequenceType = "IK", Loops = 1 }
                 }
             }
         };

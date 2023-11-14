@@ -30,32 +30,6 @@ namespace JSONConsoleApp.VNCPhidget
         /// </summary>
         public PerformanceSequence? NextPerformance { get; set; }
 
-        public PerformanceSequence[] PerformanceSequences { get; set; } = new[] // PerformanceSequence[0];
-        {
-            new PerformanceSequence
-            {
-                Name = "psbc21_SequenceServo0",
-                Description = "psbc21_SequenceServo0 1 Description",
-                Loops = 1,
-                SequenceType = "AS",
-                NextSequence = new PerformanceSequence { Name = "psbc21_SequenceServo0P Configure and Engage", SequenceType = "AS"}
-            },
-            new PerformanceSequence
-            {
-                Name = "psbc21_SequenceServo0P Configure and Engage",
-                Description = "psbc21_SequenceServo0P Configure and Engage",
-                Loops = 1,
-                SequenceType = "AS",
-                NextSequence = null
-            },
-            new PerformanceSequence
-            {
-                Name = "psbc21_SequenceIK 1",
-                Description = "psbc21_SequenceIK 1 Description",
-                Loops = 1,
-                SequenceType = "IK",
-                NextSequence = null
-            }
-        };
+        public PerformanceSequence[] PerformanceSequences { get; set; }
     }
 }

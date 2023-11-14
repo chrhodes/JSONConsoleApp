@@ -2,7 +2,6 @@
 
 namespace JSONConsoleApp.VNCPhidget
 {
-
     public class InterfaceKitSequence
     {
         public Host Host { get; set; }
@@ -18,42 +17,34 @@ namespace JSONConsoleApp.VNCPhidget
             };
 
         /// <summary>
-        /// Name of performance
+        /// Name of sequence
         /// </summary>
         public string Name { get; set; } = "SEQUENCE NAME";
 
         /// <summary>
-        /// Description of performance
+        /// Description of sequence
         /// </summary>
         public string Description { get; set; } = "SEQUENCE DESCRIPTION";
 
         /// <summary>
-        /// Number of loops of Performance
+        /// Number of loops of sequence
         /// </summary>
         public Int32 Loops { get; set; } = 1;
 
         /// <summary>
-        /// Play ServoAction[] in Parallel or Sequential (false)
+        /// Play InterfaceKitAction[] in Parallel or Sequential (false)
         /// </summary>
-        public Boolean PlayInParallel { get; set; } = false;
+        public Boolean PlayActionsInParallel { get; set; } = false;
 
         /// <summary>
-        /// Name of performance to invoke at end of performance (optional)
-        /// none, null, or empty string to stop
+        /// Name of PerformanceSequence to invoke at end of sequence loops (optional)
+        /// none or null to stop
         /// </summary>
-        public string? ContinueWith { get; set; } = "";
+        public PerformanceSequence? NextSequence { get; set; }
 
         /// <summary>
-        /// Array of steps in performance
+        /// Array of actions in sequence
         /// </summary>
-        public InterfaceKitAction[] InterfaceKitActions { get; set; } = new[] // InterfaceKitAction[0];
-        {
-            new InterfaceKitAction { DigitalOutIndex = 0, DigitalOut = true, Duration=500 },
-            new InterfaceKitAction { DigitalOutIndex = 0, DigitalOut = false, Duration=500 },
-            new InterfaceKitAction { DigitalOutIndex = 1, DigitalOut = true, Duration = 500 },
-            new InterfaceKitAction { DigitalOutIndex = 1, DigitalOut = false, Duration = 500 },
-            new InterfaceKitAction { DigitalOutIndex = 2, DigitalOut = true, Duration = 500 },
-            new InterfaceKitAction { DigitalOutIndex = 2, DigitalOut = false, Duration = 500 }
-        };
+        public InterfaceKitAction[] InterfaceKitActions { get; set; }
     }
 }
