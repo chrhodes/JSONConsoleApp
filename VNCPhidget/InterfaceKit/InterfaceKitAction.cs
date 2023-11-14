@@ -42,6 +42,6 @@ namespace JSONConsoleApp.VNCPhidget
         /// <summary>
         /// Duration of step in ms (sleep time after step)
         /// </summary>
-        public Int32? Duration { get; set; } // ms
+        public Int32? Duration { get; set; }
     }
 }

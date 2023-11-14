@@ -4,17 +4,17 @@ namespace JSONConsoleApp.VNCPhidget
 {
     public class InterfaceKitSequence
     {
-        public Host Host { get; set; }
-            = new Host
-            {
-                Name = "localhost",
-                IPAddress = "127.0.0.1",
-                Port = 5001,
-                InterfaceKits = new[]
-                {
-                    new InterfaceKit { Name = "InterfaceKit 1", SerialNumber = 124744, Embedded = false, Open = true }
-                },
-            };
+        public Host? Host { get; set; }
+            //= new Host
+            //{
+            //    Name = "localhost",
+            //    IPAddress = "127.0.0.1",
+            //    Port = 5001,
+            //    InterfaceKits = new[]
+            //    {
+            //        new InterfaceKit { Name = "InterfaceKit 1", SerialNumber = 124744, Embedded = false, Open = true }
+            //    },
+            //};
 
         /// <summary>
         /// Name of sequence
@@ -45,6 +45,6 @@ namespace JSONConsoleApp.VNCPhidget
         /// <summary>
         /// Array of actions in sequence
         /// </summary>
-        public InterfaceKitAction[] InterfaceKitActions { get; set; }
+        public InterfaceKitAction[]? InterfaceKitActions { get; set; }
     }
 }
