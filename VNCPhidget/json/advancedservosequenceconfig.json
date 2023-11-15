@@ -1,6 +1,78 @@
 {
   "AdvancedServoSequences": [
     {
+      "Actions": [
+        {
+          "ServoIndex": 0,
+          "Engaged": true,
+          "Acceleration": 5000,
+          "VelocityLimit": 200,
+          "PositionMin": null,
+          "TargetPosition": null,
+          "PositionMax": null,
+          "Duration": null
+        },
+        {
+          "ServoIndex": 0,
+          "Engaged": null,
+          "Acceleration": null,
+          "VelocityLimit": null,
+          "PositionMin": null,
+          "TargetPosition": 90,
+          "PositionMax": null,
+          "Duration": null
+        },
+        {
+          "ServoIndex": 0,
+          "Engaged": null,
+          "Acceleration": null,
+          "VelocityLimit": null,
+          "PositionMin": null,
+          "TargetPosition": 100,
+          "PositionMax": null,
+          "Duration": null
+        },
+        {
+          "ServoIndex": 0,
+          "Engaged": null,
+          "Acceleration": null,
+          "VelocityLimit": null,
+          "PositionMin": null,
+          "TargetPosition": 110,
+          "PositionMax": null,
+          "Duration": null
+        },
+        {
+          "ServoIndex": 0,
+          "Engaged": null,
+          "Acceleration": null,
+          "VelocityLimit": null,
+          "PositionMin": null,
+          "TargetPosition": 100,
+          "PositionMax": null,
+          "Duration": null
+        },
+        {
+          "ServoIndex": 0,
+          "Engaged": null,
+          "Acceleration": null,
+          "VelocityLimit": null,
+          "PositionMin": null,
+          "TargetPosition": 90,
+          "PositionMax": null,
+          "Duration": null
+        },
+        {
+          "ServoIndex": 0,
+          "Engaged": false,
+          "Acceleration": null,
+          "VelocityLimit": null,
+          "PositionMin": null,
+          "TargetPosition": null,
+          "PositionMax": null,
+          "Duration": null
+        }
+      ],
       "Host": {
         "Name": "localhost",
         "IPAddress": "127.0.0.1",
@@ -24,10 +96,12 @@
         "Name": "localhost_SequenceServo1",
         "SequenceType": "AS",
         "Loops": 1
-      },
-      "AdvancedServoServoActions": [
+      }
+    },
+    {
+      "Actions": [
         {
-          "ServoIndex": 0,
+          "ServoIndex": 1,
           "Engaged": true,
           "Acceleration": 5000,
           "VelocityLimit": 200,
@@ -37,7 +111,7 @@
           "Duration": null
         },
         {
-          "ServoIndex": 0,
+          "ServoIndex": 1,
           "Engaged": null,
           "Acceleration": null,
           "VelocityLimit": null,
@@ -47,7 +121,7 @@
           "Duration": null
         },
         {
-          "ServoIndex": 0,
+          "ServoIndex": 1,
           "Engaged": null,
           "Acceleration": null,
           "VelocityLimit": null,
@@ -57,7 +131,7 @@
           "Duration": null
         },
         {
-          "ServoIndex": 0,
+          "ServoIndex": 1,
           "Engaged": null,
           "Acceleration": null,
           "VelocityLimit": null,
@@ -67,7 +141,7 @@
           "Duration": null
         },
         {
-          "ServoIndex": 0,
+          "ServoIndex": 1,
           "Engaged": null,
           "Acceleration": null,
           "VelocityLimit": null,
@@ -77,7 +151,7 @@
           "Duration": null
         },
         {
-          "ServoIndex": 0,
+          "ServoIndex": 1,
           "Engaged": null,
           "Acceleration": null,
           "VelocityLimit": null,
@@ -87,7 +161,7 @@
           "Duration": null
         },
         {
-          "ServoIndex": 0,
+          "ServoIndex": 1,
           "Engaged": false,
           "Acceleration": null,
           "VelocityLimit": null,
@@ -96,9 +170,7 @@
           "PositionMax": null,
           "Duration": null
         }
-      ]
-    },
-    {
+      ],
       "Host": null,
       "Name": "localhost_SequenceServo1",
       "Description": "SEQUENCE DESCRIPTION",
@@ -108,10 +180,12 @@
         "Name": "localhost_SequenceServo2",
         "SequenceType": "AS",
         "Loops": 1
-      },
-      "AdvancedServoServoActions": [
+      }
+    },
+    {
+      "Actions": [
         {
-          "ServoIndex": 1,
+          "ServoIndex": 2,
           "Engaged": true,
           "Acceleration": 5000,
           "VelocityLimit": 200,
@@ -121,7 +195,7 @@
           "Duration": null
         },
         {
-          "ServoIndex": 1,
+          "ServoIndex": 2,
           "Engaged": null,
           "Acceleration": null,
           "VelocityLimit": null,
@@ -131,7 +205,7 @@
           "Duration": null
         },
         {
-          "ServoIndex": 1,
+          "ServoIndex": 2,
           "Engaged": null,
           "Acceleration": null,
           "VelocityLimit": null,
@@ -141,7 +215,7 @@
           "Duration": null
         },
         {
-          "ServoIndex": 1,
+          "ServoIndex": 2,
           "Engaged": null,
           "Acceleration": null,
           "VelocityLimit": null,
@@ -151,7 +225,7 @@
           "Duration": null
         },
         {
-          "ServoIndex": 1,
+          "ServoIndex": 2,
           "Engaged": null,
           "Acceleration": null,
           "VelocityLimit": null,
@@ -161,7 +235,7 @@
           "Duration": null
         },
         {
-          "ServoIndex": 1,
+          "ServoIndex": 2,
           "Engaged": null,
           "Acceleration": null,
           "VelocityLimit": null,
@@ -171,7 +245,7 @@
           "Duration": null
         },
         {
-          "ServoIndex": 1,
+          "ServoIndex": 2,
           "Engaged": false,
           "Acceleration": null,
           "VelocityLimit": null,
@@ -180,9 +254,7 @@
           "PositionMax": null,
           "Duration": null
         }
-      ]
-    },
-    {
+      ],
       "Host": null,
       "Name": "localhost_SequenceServo2",
       "Description": "SEQUENCE DESCRIPTION",
@@ -192,88 +264,10 @@
         "Name": "localhost_SequenceServoFin",
         "SequenceType": "AS",
         "Loops": 1
-      },
-      "AdvancedServoServoActions": [
-        {
-          "ServoIndex": 2,
-          "Engaged": true,
-          "Acceleration": 5000,
-          "VelocityLimit": 200,
-          "PositionMin": null,
-          "TargetPosition": null,
-          "PositionMax": null,
-          "Duration": null
-        },
-        {
-          "ServoIndex": 2,
-          "Engaged": null,
-          "Acceleration": null,
-          "VelocityLimit": null,
-          "PositionMin": null,
-          "TargetPosition": 90,
-          "PositionMax": null,
-          "Duration": null
-        },
-        {
-          "ServoIndex": 2,
-          "Engaged": null,
-          "Acceleration": null,
-          "VelocityLimit": null,
-          "PositionMin": null,
-          "TargetPosition": 100,
-          "PositionMax": null,
-          "Duration": null
-        },
-        {
-          "ServoIndex": 2,
-          "Engaged": null,
-          "Acceleration": null,
-          "VelocityLimit": null,
-          "PositionMin": null,
-          "TargetPosition": 110,
-          "PositionMax": null,
-          "Duration": null
-        },
-        {
-          "ServoIndex": 2,
-          "Engaged": null,
-          "Acceleration": null,
-          "VelocityLimit": null,
-          "PositionMin": null,
-          "TargetPosition": 100,
-          "PositionMax": null,
-          "Duration": null
-        },
-        {
-          "ServoIndex": 2,
-          "Engaged": null,
-          "Acceleration": null,
-          "VelocityLimit": null,
-          "PositionMin": null,
-          "TargetPosition": 90,
-          "PositionMax": null,
-          "Duration": null
-        },
-        {
-          "ServoIndex": 2,
-          "Engaged": false,
-          "Acceleration": null,
-          "VelocityLimit": null,
-          "PositionMin": null,
-          "TargetPosition": null,
-          "PositionMax": null,
-          "Duration": null
-        }
-      ]
+      }
     },
     {
-      "Host": null,
-      "Name": "localhost_SequenceServoFin",
-      "Description": "SEQUENCE DESCRIPTION",
-      "Loops": 1,
-      "PlayActionsInParallel": false,
-      "NextSequence": null,
-      "AdvancedServoServoActions": [
+      "Actions": [
         {
           "ServoIndex": 0,
           "Engaged": false,
@@ -304,9 +298,87 @@
           "PositionMax": null,
           "Duration": null
         }
-      ]
+      ],
+      "Host": null,
+      "Name": "localhost_SequenceServoFin",
+      "Description": "SEQUENCE DESCRIPTION",
+      "Loops": 1,
+      "PlayActionsInParallel": false,
+      "NextSequence": null
     },
     {
+      "Actions": [
+        {
+          "ServoIndex": 0,
+          "Engaged": true,
+          "Acceleration": 5000,
+          "VelocityLimit": 200,
+          "PositionMin": null,
+          "TargetPosition": null,
+          "PositionMax": null,
+          "Duration": null
+        },
+        {
+          "ServoIndex": 0,
+          "Engaged": null,
+          "Acceleration": null,
+          "VelocityLimit": null,
+          "PositionMin": null,
+          "TargetPosition": 90,
+          "PositionMax": null,
+          "Duration": null
+        },
+        {
+          "ServoIndex": 0,
+          "Engaged": null,
+          "Acceleration": null,
+          "VelocityLimit": null,
+          "PositionMin": null,
+          "TargetPosition": 100,
+          "PositionMax": null,
+          "Duration": null
+        },
+        {
+          "ServoIndex": 0,
+          "Engaged": null,
+          "Acceleration": null,
+          "VelocityLimit": null,
+          "PositionMin": null,
+          "TargetPosition": 110,
+          "PositionMax": null,
+          "Duration": null
+        },
+        {
+          "ServoIndex": 0,
+          "Engaged": null,
+          "Acceleration": null,
+          "VelocityLimit": null,
+          "PositionMin": null,
+          "TargetPosition": 100,
+          "PositionMax": null,
+          "Duration": null
+        },
+        {
+          "ServoIndex": 0,
+          "Engaged": null,
+          "Acceleration": null,
+          "VelocityLimit": null,
+          "PositionMin": null,
+          "TargetPosition": 90,
+          "PositionMax": null,
+          "Duration": null
+        },
+        {
+          "ServoIndex": 0,
+          "Engaged": false,
+          "Acceleration": null,
+          "VelocityLimit": null,
+          "PositionMin": null,
+          "TargetPosition": null,
+          "PositionMax": null,
+          "Duration": null
+        }
+      ],
       "Host": {
         "Name": "psbc11",
         "IPAddress": "192.168.150.11",
@@ -330,10 +402,12 @@
         "Name": "psbc11_SequenceServo1",
         "SequenceType": "AS",
         "Loops": 1
-      },
-      "AdvancedServoServoActions": [
+      }
+    },
+    {
+      "Actions": [
         {
-          "ServoIndex": 0,
+          "ServoIndex": 1,
           "Engaged": true,
           "Acceleration": 5000,
           "VelocityLimit": 200,
@@ -343,7 +417,7 @@
           "Duration": null
         },
         {
-          "ServoIndex": 0,
+          "ServoIndex": 1,
           "Engaged": null,
           "Acceleration": null,
           "VelocityLimit": null,
@@ -353,7 +427,7 @@
           "Duration": null
         },
         {
-          "ServoIndex": 0,
+          "ServoIndex": 1,
           "Engaged": null,
           "Acceleration": null,
           "VelocityLimit": null,
@@ -363,7 +437,7 @@
           "Duration": null
         },
         {
-          "ServoIndex": 0,
+          "ServoIndex": 1,
           "Engaged": null,
           "Acceleration": null,
           "VelocityLimit": null,
@@ -373,7 +447,7 @@
           "Duration": null
         },
         {
-          "ServoIndex": 0,
+          "ServoIndex": 1,
           "Engaged": null,
           "Acceleration": null,
           "VelocityLimit": null,
@@ -383,7 +457,7 @@
           "Duration": null
         },
         {
-          "ServoIndex": 0,
+          "ServoIndex": 1,
           "Engaged": null,
           "Acceleration": null,
           "VelocityLimit": null,
@@ -393,7 +467,7 @@
           "Duration": null
         },
         {
-          "ServoIndex": 0,
+          "ServoIndex": 1,
           "Engaged": false,
           "Acceleration": null,
           "VelocityLimit": null,
@@ -402,9 +476,7 @@
           "PositionMax": null,
           "Duration": null
         }
-      ]
-    },
-    {
+      ],
       "Host": null,
       "Name": "psbc11_SequenceServo1",
       "Description": "SEQUENCE DESCRIPTION",
@@ -414,10 +486,12 @@
         "Name": "psbc11_SequenceServo2",
         "SequenceType": "AS",
         "Loops": 1
-      },
-      "AdvancedServoServoActions": [
+      }
+    },
+    {
+      "Actions": [
         {
-          "ServoIndex": 1,
+          "ServoIndex": 2,
           "Engaged": true,
           "Acceleration": 5000,
           "VelocityLimit": 200,
@@ -427,7 +501,7 @@
           "Duration": null
         },
         {
-          "ServoIndex": 1,
+          "ServoIndex": 2,
           "Engaged": null,
           "Acceleration": null,
           "VelocityLimit": null,
@@ -437,7 +511,7 @@
           "Duration": null
         },
         {
-          "ServoIndex": 1,
+          "ServoIndex": 2,
           "Engaged": null,
           "Acceleration": null,
           "VelocityLimit": null,
@@ -447,7 +521,7 @@
           "Duration": null
         },
         {
-          "ServoIndex": 1,
+          "ServoIndex": 2,
           "Engaged": null,
           "Acceleration": null,
           "VelocityLimit": null,
@@ -457,7 +531,7 @@
           "Duration": null
         },
         {
-          "ServoIndex": 1,
+          "ServoIndex": 2,
           "Engaged": null,
           "Acceleration": null,
           "VelocityLimit": null,
@@ -467,7 +541,7 @@
           "Duration": null
         },
         {
-          "ServoIndex": 1,
+          "ServoIndex": 2,
           "Engaged": null,
           "Acceleration": null,
           "VelocityLimit": null,
@@ -477,7 +551,7 @@
           "Duration": null
         },
         {
-          "ServoIndex": 1,
+          "ServoIndex": 2,
           "Engaged": false,
           "Acceleration": null,
           "VelocityLimit": null,
@@ -486,9 +560,7 @@
           "PositionMax": null,
           "Duration": null
         }
-      ]
-    },
-    {
+      ],
       "Host": null,
       "Name": "psbc11_SequenceServo2",
       "Description": "SEQUENCE DESCRIPTION",
@@ -498,88 +570,10 @@
         "Name": "psbc11_SequenceServoFin",
         "SequenceType": "AS",
         "Loops": 1
-      },
-      "AdvancedServoServoActions": [
-        {
-          "ServoIndex": 2,
-          "Engaged": true,
-          "Acceleration": 5000,
-          "VelocityLimit": 200,
-          "PositionMin": null,
-          "TargetPosition": null,
-          "PositionMax": null,
-          "Duration": null
-        },
-        {
-          "ServoIndex": 2,
-          "Engaged": null,
-          "Acceleration": null,
-          "VelocityLimit": null,
-          "PositionMin": null,
-          "TargetPosition": 90,
-          "PositionMax": null,
-          "Duration": null
-        },
-        {
-          "ServoIndex": 2,
-          "Engaged": null,
-          "Acceleration": null,
-          "VelocityLimit": null,
-          "PositionMin": null,
-          "TargetPosition": 100,
-          "PositionMax": null,
-          "Duration": null
-        },
-        {
-          "ServoIndex": 2,
-          "Engaged": null,
-          "Acceleration": null,
-          "VelocityLimit": null,
-          "PositionMin": null,
-          "TargetPosition": 110,
-          "PositionMax": null,
-          "Duration": null
-        },
-        {
-          "ServoIndex": 2,
-          "Engaged": null,
-          "Acceleration": null,
-          "VelocityLimit": null,
-          "PositionMin": null,
-          "TargetPosition": 100,
-          "PositionMax": null,
-          "Duration": null
-        },
-        {
-          "ServoIndex": 2,
-          "Engaged": null,
-          "Acceleration": null,
-          "VelocityLimit": null,
-          "PositionMin": null,
-          "TargetPosition": 90,
-          "PositionMax": null,
-          "Duration": null
-        },
-        {
-          "ServoIndex": 2,
-          "Engaged": false,
-          "Acceleration": null,
-          "VelocityLimit": null,
-          "PositionMin": null,
-          "TargetPosition": null,
-          "PositionMax": null,
-          "Duration": null
-        }
-      ]
+      }
     },
     {
-      "Host": null,
-      "Name": "psbc11_SequenceServoFin",
-      "Description": "SEQUENCE DESCRIPTION",
-      "Loops": 1,
-      "PlayActionsInParallel": false,
-      "NextSequence": null,
-      "AdvancedServoServoActions": [
+      "Actions": [
         {
           "ServoIndex": 0,
           "Engaged": false,
@@ -610,9 +604,87 @@
           "PositionMax": null,
           "Duration": null
         }
-      ]
+      ],
+      "Host": null,
+      "Name": "psbc11_SequenceServoFin",
+      "Description": "SEQUENCE DESCRIPTION",
+      "Loops": 1,
+      "PlayActionsInParallel": false,
+      "NextSequence": null
     },
     {
+      "Actions": [
+        {
+          "ServoIndex": 0,
+          "Engaged": true,
+          "Acceleration": 5000,
+          "VelocityLimit": 200,
+          "PositionMin": null,
+          "TargetPosition": null,
+          "PositionMax": null,
+          "Duration": null
+        },
+        {
+          "ServoIndex": 0,
+          "Engaged": null,
+          "Acceleration": null,
+          "VelocityLimit": null,
+          "PositionMin": null,
+          "TargetPosition": 90,
+          "PositionMax": null,
+          "Duration": null
+        },
+        {
+          "ServoIndex": 0,
+          "Engaged": null,
+          "Acceleration": null,
+          "VelocityLimit": null,
+          "PositionMin": null,
+          "TargetPosition": 100,
+          "PositionMax": null,
+          "Duration": null
+        },
+        {
+          "ServoIndex": 0,
+          "Engaged": null,
+          "Acceleration": null,
+          "VelocityLimit": null,
+          "PositionMin": null,
+          "TargetPosition": 110,
+          "PositionMax": null,
+          "Duration": null
+        },
+        {
+          "ServoIndex": 0,
+          "Engaged": null,
+          "Acceleration": null,
+          "VelocityLimit": null,
+          "PositionMin": null,
+          "TargetPosition": 100,
+          "PositionMax": null,
+          "Duration": null
+        },
+        {
+          "ServoIndex": 0,
+          "Engaged": null,
+          "Acceleration": null,
+          "VelocityLimit": null,
+          "PositionMin": null,
+          "TargetPosition": 90,
+          "PositionMax": null,
+          "Duration": null
+        },
+        {
+          "ServoIndex": 0,
+          "Engaged": false,
+          "Acceleration": null,
+          "VelocityLimit": null,
+          "PositionMin": null,
+          "TargetPosition": null,
+          "PositionMax": null,
+          "Duration": null
+        }
+      ],
       "Host": {
         "Name": "psbc21",
         "IPAddress": "192.168.150.21",
@@ -636,10 +708,12 @@
         "Name": "psbc21_SequenceServo1",
         "SequenceType": "AS",
         "Loops": 1
-      },
-      "AdvancedServoServoActions": [
+      }
+    },
+    {
+      "Actions": [
         {
-          "ServoIndex": 0,
+          "ServoIndex": 1,
           "Engaged": true,
           "Acceleration": 5000,
           "VelocityLimit": 200,
@@ -649,7 +723,7 @@
           "Duration": null
         },
         {
-          "ServoIndex": 0,
+          "ServoIndex": 1,
           "Engaged": null,
           "Acceleration": null,
           "VelocityLimit": null,
@@ -659,7 +733,7 @@
           "Duration": null
         },
         {
-          "ServoIndex": 0,
+          "ServoIndex": 1,
           "Engaged": null,
           "Acceleration": null,
           "VelocityLimit": null,
@@ -669,7 +743,7 @@
           "Duration": null
         },
         {
-          "ServoIndex": 0,
+          "ServoIndex": 1,
           "Engaged": null,
           "Acceleration": null,
           "VelocityLimit": null,
@@ -679,7 +753,7 @@
           "Duration": null
         },
         {
-          "ServoIndex": 0,
+          "ServoIndex": 1,
           "Engaged": null,
           "Acceleration": null,
           "VelocityLimit": null,
@@ -689,7 +763,7 @@
           "Duration": null
         },
         {
-          "ServoIndex": 0,
+          "ServoIndex": 1,
           "Engaged": null,
           "Acceleration": null,
           "VelocityLimit": null,
@@ -699,7 +773,7 @@
           "Duration": null
         },
         {
-          "ServoIndex": 0,
+          "ServoIndex": 1,
           "Engaged": false,
           "Acceleration": null,
           "VelocityLimit": null,
@@ -708,9 +782,7 @@
           "PositionMax": null,
           "Duration": null
         }
-      ]
-    },
-    {
+      ],
       "Host": null,
       "Name": "psbc21_SequenceServo1",
       "Description": "SEQUENCE DESCRIPTION",
@@ -720,10 +792,12 @@
         "Name": "psbc21_SequenceServo2",
         "SequenceType": "AS",
         "Loops": 1
-      },
-      "AdvancedServoServoActions": [
+      }
+    },
+    {
+      "Actions": [
         {
-          "ServoIndex": 1,
+          "ServoIndex": 2,
           "Engaged": true,
           "Acceleration": 5000,
           "VelocityLimit": 200,
@@ -733,7 +807,7 @@
           "Duration": null
         },
         {
-          "ServoIndex": 1,
+          "ServoIndex": 2,
           "Engaged": null,
           "Acceleration": null,
           "VelocityLimit": null,
@@ -743,7 +817,7 @@
           "Duration": null
         },
         {
-          "ServoIndex": 1,
+          "ServoIndex": 2,
           "Engaged": null,
           "Acceleration": null,
           "VelocityLimit": null,
@@ -753,7 +827,7 @@
           "Duration": null
         },
         {
-          "ServoIndex": 1,
+          "ServoIndex": 2,
           "Engaged": null,
           "Acceleration": null,
           "VelocityLimit": null,
@@ -763,7 +837,7 @@
           "Duration": null
         },
         {
-          "ServoIndex": 1,
+          "ServoIndex": 2,
           "Engaged": null,
           "Acceleration": null,
           "VelocityLimit": null,
@@ -773,7 +847,7 @@
           "Duration": null
         },
         {
-          "ServoIndex": 1,
+          "ServoIndex": 2,
           "Engaged": null,
           "Acceleration": null,
           "VelocityLimit": null,
@@ -783,7 +857,7 @@
           "Duration": null
         },
         {
-          "ServoIndex": 1,
+          "ServoIndex": 2,
           "Engaged": false,
           "Acceleration": null,
           "VelocityLimit": null,
@@ -792,9 +866,7 @@
           "PositionMax": null,
           "Duration": null
         }
-      ]
-    },
-    {
+      ],
       "Host": null,
       "Name": "psbc21_SequenceServo2",
       "Description": "SEQUENCE DESCRIPTION",
@@ -804,10 +876,22 @@
         "Name": "psbc21_SequenceServoFin",
         "SequenceType": "AS",
         "Loops": 1
-      },
-      "AdvancedServoServoActions": [
+      }
+    },
+    {
+      "Actions": [
         {
-          "ServoIndex": 2,
+          "ServoIndex": 0,
+          "Engaged": true,
+          "Acceleration": 5000,
+          "VelocityLimit": 200,
+          "PositionMin": null,
+          "TargetPosition": null,
+          "PositionMax": null,
+          "Duration": null
+        },
+        {
+          "ServoIndex": 1,
           "Engaged": true,
           "Acceleration": 5000,
           "VelocityLimit": 200,
@@ -818,67 +902,15 @@
         },
         {
           "ServoIndex": 2,
-          "Engaged": null,
-          "Acceleration": null,
-          "VelocityLimit": null,
-          "PositionMin": null,
-          "TargetPosition": 90,
-          "PositionMax": null,
-          "Duration": null
-        },
-        {
-          "ServoIndex": 2,
-          "Engaged": null,
-          "Acceleration": null,
-          "VelocityLimit": null,
-          "PositionMin": null,
-          "TargetPosition": 100,
-          "PositionMax": null,
-          "Duration": null
-        },
-        {
-          "ServoIndex": 2,
-          "Engaged": null,
-          "Acceleration": null,
-          "VelocityLimit": null,
-          "PositionMin": null,
-          "TargetPosition": 110,
-          "PositionMax": null,
-          "Duration": null
-        },
-        {
-          "ServoIndex": 2,
-          "Engaged": null,
-          "Acceleration": null,
-          "VelocityLimit": null,
-          "PositionMin": null,
-          "TargetPosition": 100,
-          "PositionMax": null,
-          "Duration": null
-        },
-        {
-          "ServoIndex": 2,
-          "Engaged": null,
-          "Acceleration": null,
-          "VelocityLimit": null,
-          "PositionMin": null,
-          "TargetPosition": 90,
-          "PositionMax": null,
-          "Duration": null
-        },
-        {
-          "ServoIndex": 2,
-          "Engaged": false,
-          "Acceleration": null,
-          "VelocityLimit": null,
+          "Engaged": true,
+          "Acceleration": 5000,
+          "VelocityLimit": 200,
           "PositionMin": null,
           "TargetPosition": null,
           "PositionMax": null,
           "Duration": null
         }
-      ]
-    },
-    {
+      ],
       "Host": {
         "Name": "psbc21",
         "IPAddress": "192.168.150.21",
@@ -902,41 +934,41 @@
         "Name": "psbc21_SequenceServo1P",
         "SequenceType": "AS",
         "Loops": 1
-      },
-      "AdvancedServoServoActions": [
+      }
+    },
+    {
+      "Actions": [
         {
           "ServoIndex": 0,
-          "Engaged": true,
-          "Acceleration": 5000,
-          "VelocityLimit": 200,
+          "Engaged": null,
+          "Acceleration": null,
+          "VelocityLimit": null,
           "PositionMin": null,
-          "TargetPosition": null,
+          "TargetPosition": 90,
           "PositionMax": null,
           "Duration": null
         },
         {
           "ServoIndex": 1,
-          "Engaged": true,
-          "Acceleration": 5000,
-          "VelocityLimit": 200,
+          "Engaged": null,
+          "Acceleration": null,
+          "VelocityLimit": null,
           "PositionMin": null,
-          "TargetPosition": null,
+          "TargetPosition": 90,
           "PositionMax": null,
           "Duration": null
         },
         {
           "ServoIndex": 2,
-          "Engaged": true,
-          "Acceleration": 5000,
-          "VelocityLimit": 200,
+          "Engaged": null,
+          "Acceleration": null,
+          "VelocityLimit": null,
           "PositionMin": null,
-          "TargetPosition": null,
+          "TargetPosition": 90,
           "PositionMax": null,
           "Duration": null
         }
-      ]
-    },
-    {
+      ],
       "Host": null,
       "Name": "psbc21_SequenceServo1P",
       "Description": "SEQUENCE DESCRIPTION",
@@ -946,15 +978,17 @@
         "Name": "psbc21_SequenceServo2P",
         "SequenceType": "AS",
         "Loops": 1
-      },
-      "AdvancedServoServoActions": [
+      }
+    },
+    {
+      "Actions": [
         {
           "ServoIndex": 0,
           "Engaged": null,
           "Acceleration": null,
           "VelocityLimit": null,
           "PositionMin": null,
-          "TargetPosition": 90,
+          "TargetPosition": 100,
           "PositionMax": null,
           "Duration": null
         },
@@ -964,7 +998,7 @@
           "Acceleration": null,
           "VelocityLimit": null,
           "PositionMin": null,
-          "TargetPosition": 90,
+          "TargetPosition": 100,
           "PositionMax": null,
           "Duration": null
         },
@@ -974,13 +1008,11 @@
           "Acceleration": null,
           "VelocityLimit": null,
           "PositionMin": null,
-          "TargetPosition": 90,
+          "TargetPosition": 100,
           "PositionMax": null,
           "Duration": null
         }
-      ]
-    },
-    {
+      ],
       "Host": null,
       "Name": "psbc21_SequenceServo2P",
       "Description": "SEQUENCE DESCRIPTION",
@@ -990,15 +1022,17 @@
         "Name": "psbc21_SequenceServo3P",
         "SequenceType": "AS",
         "Loops": 1
-      },
-      "AdvancedServoServoActions": [
+      }
+    },
+    {
+      "Actions": [
         {
           "ServoIndex": 0,
           "Engaged": null,
           "Acceleration": null,
           "VelocityLimit": null,
           "PositionMin": null,
-          "TargetPosition": 100,
+          "TargetPosition": 110,
           "PositionMax": null,
           "Duration": null
         },
@@ -1008,7 +1042,7 @@
           "Acceleration": null,
           "VelocityLimit": null,
           "PositionMin": null,
-          "TargetPosition": 100,
+          "TargetPosition": 110,
           "PositionMax": null,
           "Duration": null
         },
@@ -1018,13 +1052,11 @@
           "Acceleration": null,
           "VelocityLimit": null,
           "PositionMin": null,
-          "TargetPosition": 100,
+          "TargetPosition": 110,
           "PositionMax": null,
           "Duration": null
         }
-      ]
-    },
-    {
+      ],
       "Host": null,
       "Name": "psbc21_SequenceServo3P",
       "Description": "SEQUENCE DESCRIPTION",
@@ -1034,15 +1066,17 @@
         "Name": "psbc21_SequenceServo4P",
         "SequenceType": "AS",
         "Loops": 1
-      },
-      "AdvancedServoServoActions": [
+      }
+    },
+    {
+      "Actions": [
         {
           "ServoIndex": 0,
           "Engaged": null,
           "Acceleration": null,
           "VelocityLimit": null,
           "PositionMin": null,
-          "TargetPosition": 110,
+          "TargetPosition": 100,
           "PositionMax": null,
           "Duration": null
         },
@@ -1052,7 +1086,7 @@
           "Acceleration": null,
           "VelocityLimit": null,
           "PositionMin": null,
-          "TargetPosition": 110,
+          "TargetPosition": 100,
           "PositionMax": null,
           "Duration": null
         },
@@ -1062,13 +1096,11 @@
           "Acceleration": null,
           "VelocityLimit": null,
           "PositionMin": null,
-          "TargetPosition": 110,
+          "TargetPosition": 100,
           "PositionMax": null,
           "Duration": null
         }
-      ]
-    },
-    {
+      ],
       "Host": null,
       "Name": "psbc21_SequenceServo4P",
       "Description": "SEQUENCE DESCRIPTION",
@@ -1078,15 +1110,17 @@
         "Name": "psbc21_SequenceServo5P",
         "SequenceType": "AS",
         "Loops": 1
-      },
-      "AdvancedServoServoActions": [
+      }
+    },
+    {
+      "Actions": [
         {
           "ServoIndex": 0,
           "Engaged": null,
           "Acceleration": null,
           "VelocityLimit": null,
           "PositionMin": null,
-          "TargetPosition": 100,
+          "TargetPosition": 90,
           "PositionMax": null,
           "Duration": null
         },
@@ -1096,7 +1130,7 @@
           "Acceleration": null,
           "VelocityLimit": null,
           "PositionMin": null,
-          "TargetPosition": 100,
+          "TargetPosition": 90,
           "PositionMax": null,
           "Duration": null
         },
@@ -1106,13 +1140,11 @@
           "Acceleration": null,
           "VelocityLimit": null,
           "PositionMin": null,
-          "TargetPosition": 100,
+          "TargetPosition": 90,
           "PositionMax": null,
           "Duration": null
         }
-      ]
-    },
-    {
+      ],
       "Host": null,
       "Name": "psbc21_SequenceServo5P",
       "Description": "SEQUENCE DESCRIPTION",
@@ -1122,48 +1154,110 @@
         "Name": "psbc21_SequenceServoFin",
         "SequenceType": "AS",
         "Loops": 1
-      },
-      "AdvancedServoServoActions": [
+      }
+    },
+    {
+      "Actions": [
         {
           "ServoIndex": 0,
-          "Engaged": null,
+          "Engaged": false,
           "Acceleration": null,
           "VelocityLimit": null,
           "PositionMin": null,
-          "TargetPosition": 90,
+          "TargetPosition": null,
           "PositionMax": null,
           "Duration": null
         },
         {
           "ServoIndex": 1,
-          "Engaged": null,
+          "Engaged": false,
           "Acceleration": null,
           "VelocityLimit": null,
           "PositionMin": null,
-          "TargetPosition": 90,
+          "TargetPosition": null,
           "PositionMax": null,
           "Duration": null
         },
         {
           "ServoIndex": 2,
-          "Engaged": null,
+          "Engaged": false,
           "Acceleration": null,
           "VelocityLimit": null,
           "PositionMin": null,
-          "TargetPosition": 90,
+          "TargetPosition": null,
           "PositionMax": null,
           "Duration": null
         }
-      ]
-    },
-    {
+      ],
       "Host": null,
       "Name": "psbc21_SequenceServoFin",
       "Description": "SEQUENCE DESCRIPTION",
       "Loops": 1,
       "PlayActionsInParallel": false,
-      "NextSequence": null,
-      "AdvancedServoServoActions": [
+      "NextSequence": null
+    },
+    {
+      "Actions": [
+        {
+          "ServoIndex": 0,
+          "Engaged": true,
+          "Acceleration": 5000,
+          "VelocityLimit": 200,
+          "PositionMin": null,
+          "TargetPosition": null,
+          "PositionMax": null,
+          "Duration": null
+        },
+        {
+          "ServoIndex": 0,
+          "Engaged": null,
+          "Acceleration": null,
+          "VelocityLimit": null,
+          "PositionMin": null,
+          "TargetPosition": 90,
+          "PositionMax": null,
+          "Duration": null
+        },
+        {
+          "ServoIndex": 0,
+          "Engaged": null,
+          "Acceleration": null,
+          "VelocityLimit": null,
+          "PositionMin": null,
+          "TargetPosition": 100,
+          "PositionMax": null,
+          "Duration": null
+        },
+        {
+          "ServoIndex": 0,
+          "Engaged": null,
+          "Acceleration": null,
+          "VelocityLimit": null,
+          "PositionMin": null,
+          "TargetPosition": 110,
+          "PositionMax": null,
+          "Duration": null
+        },
+        {
+          "ServoIndex": 0,
+          "Engaged": null,
+          "Acceleration": null,
+          "VelocityLimit": null,
+          "PositionMin": null,
+          "TargetPosition": 100,
+          "PositionMax": null,
+          "Duration": null
+        },
+        {
+          "ServoIndex": 0,
+          "Engaged": null,
+          "Acceleration": null,
+          "VelocityLimit": null,
+          "PositionMin": null,
+          "TargetPosition": 90,
+          "PositionMax": null,
+          "Duration": null
+        },
         {
           "ServoIndex": 0,
           "Engaged": false,
@@ -1173,30 +1267,8 @@
           "TargetPosition": null,
           "PositionMax": null,
           "Duration": null
-        },
-        {
-          "ServoIndex": 1,
-          "Engaged": false,
-          "Acceleration": null,
-          "VelocityLimit": null,
-          "PositionMin": null,
-          "TargetPosition": null,
-          "PositionMax": null,
-          "Duration": null
-        },
-        {
-          "ServoIndex": 2,
-          "Engaged": false,
-          "Acceleration": null,
-          "VelocityLimit": null,
-          "PositionMin": null,
-          "TargetPosition": null,
-          "PositionMax": null,
-          "Duration": null
         }
-      ]
-    },
-    {
+      ],
       "Host": {
         "Name": "psbc22",
         "IPAddress": "192.168.150.22",
@@ -1220,10 +1292,12 @@
         "Name": "psbc22_SequenceServo1",
         "SequenceType": "AS",
         "Loops": 1
-      },
-      "AdvancedServoServoActions": [
+      }
+    },
+    {
+      "Actions": [
         {
-          "ServoIndex": 0,
+          "ServoIndex": 1,
           "Engaged": true,
           "Acceleration": 5000,
           "VelocityLimit": 200,
@@ -1233,7 +1307,7 @@
           "Duration": null
         },
         {
-          "ServoIndex": 0,
+          "ServoIndex": 1,
           "Engaged": null,
           "Acceleration": null,
           "VelocityLimit": null,
@@ -1243,7 +1317,7 @@
           "Duration": null
         },
         {
-          "ServoIndex": 0,
+          "ServoIndex": 1,
           "Engaged": null,
           "Acceleration": null,
           "VelocityLimit": null,
@@ -1253,7 +1327,7 @@
           "Duration": null
         },
         {
-          "ServoIndex": 0,
+          "ServoIndex": 1,
           "Engaged": null,
           "Acceleration": null,
           "VelocityLimit": null,
@@ -1263,7 +1337,7 @@
           "Duration": null
         },
         {
-          "ServoIndex": 0,
+          "ServoIndex": 1,
           "Engaged": null,
           "Acceleration": null,
           "VelocityLimit": null,
@@ -1273,7 +1347,7 @@
           "Duration": null
         },
         {
-          "ServoIndex": 0,
+          "ServoIndex": 1,
           "Engaged": null,
           "Acceleration": null,
           "VelocityLimit": null,
@@ -1283,7 +1357,7 @@
           "Duration": null
         },
         {
-          "ServoIndex": 0,
+          "ServoIndex": 1,
           "Engaged": false,
           "Acceleration": null,
           "VelocityLimit": null,
@@ -1292,9 +1366,7 @@
           "PositionMax": null,
           "Duration": null
         }
-      ]
-    },
-    {
+      ],
       "Host": null,
       "Name": "psbc22_SequenceServo1",
       "Description": "SEQUENCE DESCRIPTION",
@@ -1304,10 +1376,12 @@
         "Name": "psbc22_SequenceServo2",
         "SequenceType": "AS",
         "Loops": 1
-      },
-      "AdvancedServoServoActions": [
+      }
+    },
+    {
+      "Actions": [
         {
-          "ServoIndex": 1,
+          "ServoIndex": 2,
           "Engaged": true,
           "Acceleration": 5000,
           "VelocityLimit": 200,
@@ -1317,7 +1391,7 @@
           "Duration": null
         },
         {
-          "ServoIndex": 1,
+          "ServoIndex": 2,
           "Engaged": null,
           "Acceleration": null,
           "VelocityLimit": null,
@@ -1327,7 +1401,7 @@
           "Duration": null
         },
         {
-          "ServoIndex": 1,
+          "ServoIndex": 2,
           "Engaged": null,
           "Acceleration": null,
           "VelocityLimit": null,
@@ -1337,7 +1411,7 @@
           "Duration": null
         },
         {
-          "ServoIndex": 1,
+          "ServoIndex": 2,
           "Engaged": null,
           "Acceleration": null,
           "VelocityLimit": null,
@@ -1347,7 +1421,7 @@
           "Duration": null
         },
         {
-          "ServoIndex": 1,
+          "ServoIndex": 2,
           "Engaged": null,
           "Acceleration": null,
           "VelocityLimit": null,
@@ -1357,7 +1431,7 @@
           "Duration": null
         },
         {
-          "ServoIndex": 1,
+          "ServoIndex": 2,
           "Engaged": null,
           "Acceleration": null,
           "VelocityLimit": null,
@@ -1367,7 +1441,7 @@
           "Duration": null
         },
         {
-          "ServoIndex": 1,
+          "ServoIndex": 2,
           "Engaged": false,
           "Acceleration": null,
           "VelocityLimit": null,
@@ -1376,9 +1450,7 @@
           "PositionMax": null,
           "Duration": null
         }
-      ]
-    },
-    {
+      ],
       "Host": null,
       "Name": "psbc22_SequenceServo2",
       "Description": "SEQUENCE DESCRIPTION",
@@ -1388,88 +1460,10 @@
         "Name": "psbc22_SequenceServoFin",
         "SequenceType": "AS",
         "Loops": 1
-      },
-      "AdvancedServoServoActions": [
-        {
-          "ServoIndex": 2,
-          "Engaged": true,
-          "Acceleration": 5000,
-          "VelocityLimit": 200,
-          "PositionMin": null,
-          "TargetPosition": null,
-          "PositionMax": null,
-          "Duration": null
-        },
-        {
-          "ServoIndex": 2,
-          "Engaged": null,
-          "Acceleration": null,
-          "VelocityLimit": null,
-          "PositionMin": null,
-          "TargetPosition": 90,
-          "PositionMax": null,
-          "Duration": null
-        },
-        {
-          "ServoIndex": 2,
-          "Engaged": null,
-          "Acceleration": null,
-          "VelocityLimit": null,
-          "PositionMin": null,
-          "TargetPosition": 100,
-          "PositionMax": null,
-          "Duration": null
-        },
-        {
-          "ServoIndex": 2,
-          "Engaged": null,
-          "Acceleration": null,
-          "VelocityLimit": null,
-          "PositionMin": null,
-          "TargetPosition": 110,
-          "PositionMax": null,
-          "Duration": null
-        },
-        {
-          "ServoIndex": 2,
-          "Engaged": null,
-          "Acceleration": null,
-          "VelocityLimit": null,
-          "PositionMin": null,
-          "TargetPosition": 100,
-          "PositionMax": null,
-          "Duration": null
-        },
-        {
-          "ServoIndex": 2,
-          "Engaged": null,
-          "Acceleration": null,
-          "VelocityLimit": null,
-          "PositionMin": null,
-          "TargetPosition": 90,
-          "PositionMax": null,
-          "Duration": null
-        },
-        {
-          "ServoIndex": 2,
-          "Engaged": false,
-          "Acceleration": null,
-          "VelocityLimit": null,
-          "PositionMin": null,
-          "TargetPosition": null,
-          "PositionMax": null,
-          "Duration": null
-        }
-      ]
+      }
     },
     {
-      "Host": null,
-      "Name": "psbc22_SequenceServoFin",
-      "Description": "SEQUENCE DESCRIPTION",
-      "Loops": 1,
-      "PlayActionsInParallel": false,
-      "NextSequence": null,
-      "AdvancedServoServoActions": [
+      "Actions": [
         {
           "ServoIndex": 0,
           "Engaged": false,
@@ -1500,9 +1494,87 @@
           "PositionMax": null,
           "Duration": null
         }
-      ]
+      ],
+      "Host": null,
+      "Name": "psbc22_SequenceServoFin",
+      "Description": "SEQUENCE DESCRIPTION",
+      "Loops": 1,
+      "PlayActionsInParallel": false,
+      "NextSequence": null
     },
     {
+      "Actions": [
+        {
+          "ServoIndex": 0,
+          "Engaged": true,
+          "Acceleration": 5000,
+          "VelocityLimit": 200,
+          "PositionMin": null,
+          "TargetPosition": null,
+          "PositionMax": null,
+          "Duration": null
+        },
+        {
+          "ServoIndex": 0,
+          "Engaged": null,
+          "Acceleration": null,
+          "VelocityLimit": null,
+          "PositionMin": null,
+          "TargetPosition": 90,
+          "PositionMax": null,
+          "Duration": null
+        },
+        {
+          "ServoIndex": 0,
+          "Engaged": null,
+          "Acceleration": null,
+          "VelocityLimit": null,
+          "PositionMin": null,
+          "TargetPosition": 100,
+          "PositionMax": null,
+          "Duration": null
+        },
+        {
+          "ServoIndex": 0,
+          "Engaged": null,
+          "Acceleration": null,
+          "VelocityLimit": null,
+          "PositionMin": null,
+          "TargetPosition": 110,
+          "PositionMax": null,
+          "Duration": null
+        },
+        {
+          "ServoIndex": 0,
+          "Engaged": null,
+          "Acceleration": null,
+          "VelocityLimit": null,
+          "PositionMin": null,
+          "TargetPosition": 100,
+          "PositionMax": null,
+          "Duration": null
+        },
+        {
+          "ServoIndex": 0,
+          "Engaged": null,
+          "Acceleration": null,
+          "VelocityLimit": null,
+          "PositionMin": null,
+          "TargetPosition": 90,
+          "PositionMax": null,
+          "Duration": null
+        },
+        {
+          "ServoIndex": 0,
+          "Engaged": false,
+          "Acceleration": null,
+          "VelocityLimit": null,
+          "PositionMin": null,
+          "TargetPosition": null,
+          "PositionMax": null,
+          "Duration": null
+        }
+      ],
       "Host": {
         "Name": "psbc23",
         "IPAddress": "192.168.150.23",
@@ -1526,10 +1598,12 @@
         "Name": "psbc23_SequenceServo1",
         "SequenceType": "AS",
         "Loops": 1
-      },
-      "AdvancedServoServoActions": [
+      }
+    },
+    {
+      "Actions": [
         {
-          "ServoIndex": 0,
+          "ServoIndex": 1,
           "Engaged": true,
           "Acceleration": 5000,
           "VelocityLimit": 200,
@@ -1539,7 +1613,7 @@
           "Duration": null
         },
         {
-          "ServoIndex": 0,
+          "ServoIndex": 1,
           "Engaged": null,
           "Acceleration": null,
           "VelocityLimit": null,
@@ -1549,7 +1623,7 @@
           "Duration": null
         },
         {
-          "ServoIndex": 0,
+          "ServoIndex": 1,
           "Engaged": null,
           "Acceleration": null,
           "VelocityLimit": null,
@@ -1559,7 +1633,7 @@
           "Duration": null
         },
         {
-          "ServoIndex": 0,
+          "ServoIndex": 1,
           "Engaged": null,
           "Acceleration": null,
           "VelocityLimit": null,
@@ -1569,7 +1643,7 @@
           "Duration": null
         },
         {
-          "ServoIndex": 0,
+          "ServoIndex": 1,
           "Engaged": null,
           "Acceleration": null,
           "VelocityLimit": null,
@@ -1579,7 +1653,7 @@
           "Duration": null
         },
         {
-          "ServoIndex": 0,
+          "ServoIndex": 1,
           "Engaged": null,
           "Acceleration": null,
           "VelocityLimit": null,
@@ -1589,7 +1663,7 @@
           "Duration": null
         },
         {
-          "ServoIndex": 0,
+          "ServoIndex": 1,
           "Engaged": false,
           "Acceleration": null,
           "VelocityLimit": null,
@@ -1598,9 +1672,7 @@
           "PositionMax": null,
           "Duration": null
         }
-      ]
-    },
-    {
+      ],
       "Host": null,
       "Name": "psbc23_SequenceServo1",
       "Description": "SEQUENCE DESCRIPTION",
@@ -1610,10 +1682,12 @@
         "Name": "psbc23_SequenceServo2",
         "SequenceType": "AS",
         "Loops": 1
-      },
-      "AdvancedServoServoActions": [
+      }
+    },
+    {
+      "Actions": [
         {
-          "ServoIndex": 1,
+          "ServoIndex": 2,
           "Engaged": true,
           "Acceleration": 5000,
           "VelocityLimit": 200,
@@ -1623,7 +1697,7 @@
           "Duration": null
         },
         {
-          "ServoIndex": 1,
+          "ServoIndex": 2,
           "Engaged": null,
           "Acceleration": null,
           "VelocityLimit": null,
@@ -1633,7 +1707,7 @@
           "Duration": null
         },
         {
-          "ServoIndex": 1,
+          "ServoIndex": 2,
           "Engaged": null,
           "Acceleration": null,
           "VelocityLimit": null,
@@ -1643,7 +1717,7 @@
           "Duration": null
         },
         {
-          "ServoIndex": 1,
+          "ServoIndex": 2,
           "Engaged": null,
           "Acceleration": null,
           "VelocityLimit": null,
@@ -1653,7 +1727,7 @@
           "Duration": null
         },
         {
-          "ServoIndex": 1,
+          "ServoIndex": 2,
           "Engaged": null,
           "Acceleration": null,
           "VelocityLimit": null,
@@ -1663,7 +1737,7 @@
           "Duration": null
         },
         {
-          "ServoIndex": 1,
+          "ServoIndex": 2,
           "Engaged": null,
           "Acceleration": null,
           "VelocityLimit": null,
@@ -1673,7 +1747,7 @@
           "Duration": null
         },
         {
-          "ServoIndex": 1,
+          "ServoIndex": 2,
           "Engaged": false,
           "Acceleration": null,
           "VelocityLimit": null,
@@ -1682,9 +1756,7 @@
           "PositionMax": null,
           "Duration": null
         }
-      ]
-    },
-    {
+      ],
       "Host": null,
       "Name": "psbc23_SequenceServo2",
       "Description": "SEQUENCE DESCRIPTION",
@@ -1694,88 +1766,10 @@
         "Name": "psbc23_SequenceServoFin",
         "SequenceType": "AS",
         "Loops": 1
-      },
-      "AdvancedServoServoActions": [
-        {
-          "ServoIndex": 2,
-          "Engaged": true,
-          "Acceleration": 5000,
-          "VelocityLimit": 200,
-          "PositionMin": null,
-          "TargetPosition": null,
-          "PositionMax": null,
-          "Duration": null
-        },
-        {
-          "ServoIndex": 2,
-          "Engaged": null,
-          "Acceleration": null,
-          "VelocityLimit": null,
-          "PositionMin": null,
-          "TargetPosition": 90,
-          "PositionMax": null,
-          "Duration": null
-        },
-        {
-          "ServoIndex": 2,
-          "Engaged": null,
-          "Acceleration": null,
-          "VelocityLimit": null,
-          "PositionMin": null,
-          "TargetPosition": 100,
-          "PositionMax": null,
-          "Duration": null
-        },
-        {
-          "ServoIndex": 2,
-          "Engaged": null,
-          "Acceleration": null,
-          "VelocityLimit": null,
-          "PositionMin": null,
-          "TargetPosition": 110,
-          "PositionMax": null,
-          "Duration": null
-        },
-        {
-          "ServoIndex": 2,
-          "Engaged": null,
-          "Acceleration": null,
-          "VelocityLimit": null,
-          "PositionMin": null,
-          "TargetPosition": 100,
-          "PositionMax": null,
-          "Duration": null
-        },
-        {
-          "ServoIndex": 2,
-          "Engaged": null,
-          "Acceleration": null,
-          "VelocityLimit": null,
-          "PositionMin": null,
-          "TargetPosition": 90,
-          "PositionMax": null,
-          "Duration": null
-        },
-        {
-          "ServoIndex": 2,
-          "Engaged": false,
-          "Acceleration": null,
-          "VelocityLimit": null,
-          "PositionMin": null,
-          "TargetPosition": null,
-          "PositionMax": null,
-          "Duration": null
-        }
-      ]
+      }
     },
     {
-      "Host": null,
-      "Name": "psbc23_SequenceServoFin",
-      "Description": "SEQUENCE DESCRIPTION",
-      "Loops": 1,
-      "PlayActionsInParallel": false,
-      "NextSequence": null,
-      "AdvancedServoServoActions": [
+      "Actions": [
         {
           "ServoIndex": 0,
           "Engaged": false,
@@ -1806,7 +1800,13 @@
           "PositionMax": null,
           "Duration": null
         }
-      ]
+      ],
+      "Host": null,
+      "Name": "psbc23_SequenceServoFin",
+      "Description": "SEQUENCE DESCRIPTION",
+      "Loops": 1,
+      "PlayActionsInParallel": false,
+      "NextSequence": null
     }
   ]
 }

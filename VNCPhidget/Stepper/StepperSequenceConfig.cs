@@ -1,9 +1,8 @@
-﻿
-namespace JSONConsoleApp.VNCPhidget
+﻿namespace JSONConsoleApp.VNCPhidget
 {
     public class StepperSequenceConfig
     {
-        public StepperSequence[] StepperSequences = new[]
+        public StepperSequence[] StepperSequences { get; set; } = new[]
         {
             new StepperSequence
             {
@@ -14,23 +13,16 @@ namespace JSONConsoleApp.VNCPhidget
                     Port = 5001,
                     Steppers = new[]
                     {
-                        new Stepper
-                        {
-                            Name = "Stepper 1",
-                            SerialNumber = 46049,
-                            Open = true
-                        }
+                        new Stepper { Name = "Stepper 1", SerialNumber = 46049, Open = true }
                     }
                 },
                 Name="SequenceStepper 1",
-                ContinueWith="",
 
-                StepperActions = new[]
+                Actions = new[]
                 {
                     new StepperAction { ServoIndex = 0, Acceleration = 5000, VelocityLimit = 200, Engaged = true }
                 }
-            },
- 
+            } 
         };
     }
 }
