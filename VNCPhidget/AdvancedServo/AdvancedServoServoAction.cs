@@ -35,6 +35,11 @@ namespace JSONConsoleApp.VNCPhidget
         public double? TargetPosition { get; set; }
 
         /// <summary>
+        /// RelativePosition from current position (optional)
+        /// </summary>
+        public double? RelativePosition { get; set; }
+
+        /// <summary>
         /// TargetPosition (optional)
         /// </summary>
         public double? PositionMax { get; set; }
