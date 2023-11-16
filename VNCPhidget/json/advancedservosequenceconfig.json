@@ -102,7 +102,8 @@
       "NextSequence": {
         "Name": "localhost_SequenceServo1",
         "SequenceType": "AS",
-        "Loops": 1
+        "Loops": 1,
+        "ClosePhidget": false
       }
     },
     {
@@ -193,7 +194,8 @@
       "NextSequence": {
         "Name": "localhost_SequenceServo2",
         "SequenceType": "AS",
-        "Loops": 1
+        "Loops": 1,
+        "ClosePhidget": false
       }
     },
     {
@@ -284,7 +286,8 @@
       "NextSequence": {
         "Name": "localhost_SequenceServoFin",
         "SequenceType": "AS",
-        "Loops": 1
+        "Loops": 1,
+        "ClosePhidget": false
       }
     },
     {
@@ -432,7 +435,8 @@
       "NextSequence": {
         "Name": "psbc11_SequenceServo1",
         "SequenceType": "AS",
-        "Loops": 1
+        "Loops": 1,
+        "ClosePhidget": false
       }
     },
     {
@@ -523,7 +527,8 @@
       "NextSequence": {
         "Name": "psbc11_SequenceServo2",
         "SequenceType": "AS",
-        "Loops": 1
+        "Loops": 1,
+        "ClosePhidget": false
       }
     },
     {
@@ -614,7 +619,8 @@
       "NextSequence": {
         "Name": "psbc11_SequenceServoFin",
         "SequenceType": "AS",
-        "Loops": 1
+        "Loops": 1,
+        "ClosePhidget": false
       }
     },
     {
@@ -762,7 +768,8 @@
       "NextSequence": {
         "Name": "psbc21_SequenceServo1",
         "SequenceType": "AS",
-        "Loops": 1
+        "Loops": 1,
+        "ClosePhidget": false
       }
     },
     {
@@ -853,7 +860,8 @@
       "NextSequence": {
         "Name": "psbc21_SequenceServo2",
         "SequenceType": "AS",
-        "Loops": 1
+        "Loops": 1,
+        "ClosePhidget": false
       }
     },
     {
@@ -944,7 +952,8 @@
       "NextSequence": {
         "Name": "psbc21_SequenceServoFin",
         "SequenceType": "AS",
-        "Loops": 1
+        "Loops": 1,
+        "ClosePhidget": false
       }
     },
     {
@@ -1005,7 +1014,8 @@
       "NextSequence": {
         "Name": "psbc21_SequenceServo1P",
         "SequenceType": "AS",
-        "Loops": 1
+        "Loops": 1,
+        "ClosePhidget": false
       }
     },
     {
@@ -1052,7 +1062,8 @@
       "NextSequence": {
         "Name": "psbc21_SequenceServo2P",
         "SequenceType": "AS",
-        "Loops": 1
+        "Loops": 1,
+        "ClosePhidget": false
       }
     },
     {
@@ -1099,7 +1110,8 @@
       "NextSequence": {
         "Name": "psbc21_SequenceServo3P",
         "SequenceType": "AS",
-        "Loops": 1
+        "Loops": 1,
+        "ClosePhidget": false
       }
     },
     {
@@ -1146,7 +1158,8 @@
       "NextSequence": {
         "Name": "psbc21_SequenceServo4P",
         "SequenceType": "AS",
-        "Loops": 1
+        "Loops": 1,
+        "ClosePhidget": false
       }
     },
     {
@@ -1193,7 +1206,8 @@
       "NextSequence": {
         "Name": "psbc21_SequenceServo5P",
         "SequenceType": "AS",
-        "Loops": 1
+        "Loops": 1,
+        "ClosePhidget": false
       }
     },
     {
@@ -1240,7 +1254,8 @@
       "NextSequence": {
         "Name": "psbc21_SequenceServoFin",
         "SequenceType": "AS",
-        "Loops": 1
+        "Loops": 1,
+        "ClosePhidget": false
       }
     },
     {
@@ -1388,7 +1403,8 @@
       "NextSequence": {
         "Name": "psbc22_SequenceServo1",
         "SequenceType": "AS",
-        "Loops": 1
+        "Loops": 1,
+        "ClosePhidget": false
       }
     },
     {
@@ -1479,7 +1495,8 @@
       "NextSequence": {
         "Name": "psbc22_SequenceServo2",
         "SequenceType": "AS",
-        "Loops": 1
+        "Loops": 1,
+        "ClosePhidget": false
       }
     },
     {
@@ -1570,7 +1587,8 @@
       "NextSequence": {
         "Name": "psbc22_SequenceServoFin",
         "SequenceType": "AS",
-        "Loops": 1
+        "Loops": 1,
+        "ClosePhidget": false
       }
     },
     {
@@ -1718,7 +1736,8 @@
       "NextSequence": {
         "Name": "psbc23_SequenceServo1",
         "SequenceType": "AS",
-        "Loops": 1
+        "Loops": 1,
+        "ClosePhidget": false
       }
     },
     {
@@ -1809,7 +1828,8 @@
       "NextSequence": {
         "Name": "psbc23_SequenceServo2",
         "SequenceType": "AS",
-        "Loops": 1
+        "Loops": 1,
+        "ClosePhidget": false
       }
     },
     {
@@ -1900,7 +1920,8 @@
       "NextSequence": {
         "Name": "psbc23_SequenceServoFin",
         "SequenceType": "AS",
-        "Loops": 1
+        "Loops": 1,
+        "ClosePhidget": false
       }
     },
     {

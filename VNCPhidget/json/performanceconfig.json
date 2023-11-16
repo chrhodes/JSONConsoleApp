@@ -11,12 +11,14 @@
         {
           "Name": "psbc21_SequenceServo0",
           "SequenceType": "AS",
-          "Loops": 1
+          "Loops": 1,
+          "ClosePhidget": false
         },
         {
           "Name": "psbc21_SequenceServo0P Configure and Engage",
           "SequenceType": "AS",
-          "Loops": 1
+          "Loops": 1,
+          "ClosePhidget": false
         }
       ],
       "NextPerformance": null
@@ -30,17 +32,20 @@
         {
           "Name": "psbc21_SequenceIK 1",
           "SequenceType": "IK",
-          "Loops": 1
+          "Loops": 1,
+          "ClosePhidget": false
         },
         {
           "Name": "psbc22_SequenceIK 1",
           "SequenceType": "IK",
-          "Loops": 1
+          "Loops": 1,
+          "ClosePhidget": false
         },
         {
           "Name": "psbc23_SequenceIK 1",
           "SequenceType": "IK",
-          "Loops": 1
+          "Loops": 1,
+          "ClosePhidget": false
         }
       ],
       "NextPerformance": null
@@ -54,12 +59,14 @@
         {
           "Name": "psbc21_SequenceServo0",
           "SequenceType": "AS",
-          "Loops": 1
+          "Loops": 1,
+          "ClosePhidget": false
         },
         {
           "Name": "psbc21_SequenceIK 1",
           "SequenceType": "IK",
-          "Loops": 1
+          "Loops": 1,
+          "ClosePhidget": false
         }
       ],
       "NextPerformance": null
@@ -73,12 +80,14 @@
         {
           "Name": "psbc21_SequenceServo0",
           "SequenceType": "AS",
-          "Loops": 1
+          "Loops": 1,
+          "ClosePhidget": false
         },
         {
           "Name": "psbc21_SequenceIK 1",
           "SequenceType": "IK",
-          "Loops": 1
+          "Loops": 1,
+          "ClosePhidget": false
         }
       ],
       "NextPerformance": null

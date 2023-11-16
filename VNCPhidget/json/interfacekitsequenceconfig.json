@@ -166,7 +166,8 @@
       "NextSequence": {
         "Name": "psbc22_SequenceIK 1",
         "SequenceType": "IK",
-        "Loops": 1
+        "Loops": 1,
+        "ClosePhidget": false
       }
     },
     {
@@ -280,7 +281,8 @@
       "NextSequence": {
         "Name": "psbc23_SequenceIK 1",
         "SequenceType": "IK",
-        "Loops": 1
+        "Loops": 1,
+        "ClosePhidget": false
       }
     },
     {
