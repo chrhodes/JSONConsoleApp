@@ -23,6 +23,16 @@
                 {
                     new PerformanceSequence { Name = "psbc21_SequenceServo0", SequenceType = "AS", Loops = 1 },
                     new PerformanceSequence { Name = "psbc21_SequenceServo0P Configure and Engage", SequenceType = "AS", Loops = 1 }
+                },
+                NextPerformance = new Performance
+                {
+                    Name = "End Show",
+                    Description = "Shutdown and wave goodbye",
+
+                    PerformanceSequences = new[] // PerformanceSequence[0];
+                    {
+                        new PerformanceSequence { Name = "psbc21_Disengage", SequenceType = "AS", Loops = 1 }
+                    }
                 }
             },
             new Performance

@@ -20,6 +20,11 @@ namespace JSONConsoleApp.VNCPhidget
         public string Description { get; set; } = "SEQUENCE DESCRIPTION";
 
         /// <summary>
+        /// Description of sequence
+        /// </summary>
+        public string UsageNotes { get; set; } = "USAGE NOTES";
+
+        /// <summary>
         /// Number of loops of sequence
         /// </summary>
         public Int32 Loops { get; set; } = 1;
