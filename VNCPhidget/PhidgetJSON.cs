@@ -21,6 +21,7 @@ namespace JSONConsoleApp
         {
             JsonHelper.ConvertObject<Host>(new Host(), "host.json");
             JsonHelper.ConvertObject<HostConfig>(new HostConfig(), "hostconfig.json");
+            JsonHelper.ConvertObject<PhidgetDevice>(new PhidgetDevice(), "phidgetdevice.json");
 
             JsonHelper.ConvertObject<PerformanceConfig>(new PerformanceConfig(), "performanceconfig.json");
             JsonHelper.ConvertObject<Performance>(new Performance(), "performance.json");
