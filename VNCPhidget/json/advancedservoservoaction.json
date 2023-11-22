@@ -1,5 +1,6 @@
 {
   "ServoIndex": 0,
+  "ServoType": null,
   "Engaged": null,
   "Acceleration": null,
   "RelativeAcceleration": null,

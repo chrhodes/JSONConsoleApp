@@ -4,6 +4,7 @@
       "Actions": [
         {
           "ServoIndex": 0,
+          "ServoType": null,
           "Engaged": true,
           "Acceleration": 5000,
           "RelativeAcceleration": null,
@@ -17,6 +18,7 @@
         },
         {
           "ServoIndex": 0,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -30,6 +32,7 @@
         },
         {
           "ServoIndex": 0,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -43,6 +46,7 @@
         },
         {
           "ServoIndex": 0,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -56,6 +60,7 @@
         },
         {
           "ServoIndex": 0,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -69,6 +74,7 @@
         },
         {
           "ServoIndex": 0,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -82,6 +88,7 @@
         },
         {
           "ServoIndex": 0,
+          "ServoType": null,
           "Engaged": false,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -125,6 +132,7 @@
       "Actions": [
         {
           "ServoIndex": 1,
+          "ServoType": null,
           "Engaged": true,
           "Acceleration": 5000,
           "RelativeAcceleration": null,
@@ -138,6 +146,7 @@
         },
         {
           "ServoIndex": 1,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -151,6 +160,7 @@
         },
         {
           "ServoIndex": 1,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -164,6 +174,7 @@
         },
         {
           "ServoIndex": 1,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -177,6 +188,7 @@
         },
         {
           "ServoIndex": 1,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -190,6 +202,7 @@
         },
         {
           "ServoIndex": 1,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -203,6 +216,7 @@
         },
         {
           "ServoIndex": 1,
+          "ServoType": null,
           "Engaged": false,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -232,6 +246,7 @@
       "Actions": [
         {
           "ServoIndex": 2,
+          "ServoType": null,
           "Engaged": true,
           "Acceleration": 5000,
           "RelativeAcceleration": null,
@@ -245,6 +260,7 @@
         },
         {
           "ServoIndex": 2,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -258,6 +274,7 @@
         },
         {
           "ServoIndex": 2,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -271,6 +288,7 @@
         },
         {
           "ServoIndex": 2,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -284,6 +302,7 @@
         },
         {
           "ServoIndex": 2,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -297,6 +316,7 @@
         },
         {
           "ServoIndex": 2,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -310,6 +330,7 @@
         },
         {
           "ServoIndex": 2,
+          "ServoType": null,
           "Engaged": false,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -339,6 +360,7 @@
       "Actions": [
         {
           "ServoIndex": 0,
+          "ServoType": null,
           "Engaged": false,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -352,6 +374,7 @@
         },
         {
           "ServoIndex": 1,
+          "ServoType": null,
           "Engaged": false,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -365,6 +388,7 @@
         },
         {
           "ServoIndex": 2,
+          "ServoType": null,
           "Engaged": false,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -389,6 +413,7 @@
       "Actions": [
         {
           "ServoIndex": 0,
+          "ServoType": null,
           "Engaged": true,
           "Acceleration": 5000,
           "RelativeAcceleration": null,
@@ -402,6 +427,7 @@
         },
         {
           "ServoIndex": 0,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -415,6 +441,7 @@
         },
         {
           "ServoIndex": 0,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -428,6 +455,7 @@
         },
         {
           "ServoIndex": 0,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -441,6 +469,7 @@
         },
         {
           "ServoIndex": 0,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -454,6 +483,7 @@
         },
         {
           "ServoIndex": 0,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -467,6 +497,7 @@
         },
         {
           "ServoIndex": 0,
+          "ServoType": null,
           "Engaged": false,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -510,6 +541,7 @@
       "Actions": [
         {
           "ServoIndex": 1,
+          "ServoType": null,
           "Engaged": true,
           "Acceleration": 5000,
           "RelativeAcceleration": null,
@@ -523,6 +555,7 @@
         },
         {
           "ServoIndex": 1,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -536,6 +569,7 @@
         },
         {
           "ServoIndex": 1,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -549,6 +583,7 @@
         },
         {
           "ServoIndex": 1,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -562,6 +597,7 @@
         },
         {
           "ServoIndex": 1,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -575,6 +611,7 @@
         },
         {
           "ServoIndex": 1,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -588,6 +625,7 @@
         },
         {
           "ServoIndex": 1,
+          "ServoType": null,
           "Engaged": false,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -617,6 +655,7 @@
       "Actions": [
         {
           "ServoIndex": 2,
+          "ServoType": null,
           "Engaged": true,
           "Acceleration": 5000,
           "RelativeAcceleration": null,
@@ -630,6 +669,7 @@
         },
         {
           "ServoIndex": 2,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -643,6 +683,7 @@
         },
         {
           "ServoIndex": 2,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -656,6 +697,7 @@
         },
         {
           "ServoIndex": 2,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -669,6 +711,7 @@
         },
         {
           "ServoIndex": 2,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -682,6 +725,7 @@
         },
         {
           "ServoIndex": 2,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -695,6 +739,7 @@
         },
         {
           "ServoIndex": 2,
+          "ServoType": null,
           "Engaged": false,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -724,6 +769,7 @@
       "Actions": [
         {
           "ServoIndex": 0,
+          "ServoType": null,
           "Engaged": false,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -737,6 +783,7 @@
         },
         {
           "ServoIndex": 1,
+          "ServoType": null,
           "Engaged": false,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -750,6 +797,7 @@
         },
         {
           "ServoIndex": 2,
+          "ServoType": null,
           "Engaged": false,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -774,6 +822,7 @@
       "Actions": [
         {
           "ServoIndex": 0,
+          "ServoType": null,
           "Engaged": true,
           "Acceleration": 5000,
           "RelativeAcceleration": null,
@@ -787,6 +836,7 @@
         },
         {
           "ServoIndex": 0,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -800,6 +850,7 @@
         },
         {
           "ServoIndex": 0,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -813,6 +864,7 @@
         },
         {
           "ServoIndex": 0,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -826,6 +878,7 @@
         },
         {
           "ServoIndex": 0,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -839,6 +892,7 @@
         },
         {
           "ServoIndex": 0,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -852,6 +906,7 @@
         },
         {
           "ServoIndex": 0,
+          "ServoType": null,
           "Engaged": false,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -895,6 +950,7 @@
       "Actions": [
         {
           "ServoIndex": 1,
+          "ServoType": null,
           "Engaged": true,
           "Acceleration": 5000,
           "RelativeAcceleration": null,
@@ -908,6 +964,7 @@
         },
         {
           "ServoIndex": 1,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -921,6 +978,7 @@
         },
         {
           "ServoIndex": 1,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -934,6 +992,7 @@
         },
         {
           "ServoIndex": 1,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -947,6 +1006,7 @@
         },
         {
           "ServoIndex": 1,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -960,6 +1020,7 @@
         },
         {
           "ServoIndex": 1,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -973,6 +1034,7 @@
         },
         {
           "ServoIndex": 1,
+          "ServoType": null,
           "Engaged": false,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -1002,6 +1064,7 @@
       "Actions": [
         {
           "ServoIndex": 2,
+          "ServoType": null,
           "Engaged": true,
           "Acceleration": 5000,
           "RelativeAcceleration": null,
@@ -1015,6 +1078,7 @@
         },
         {
           "ServoIndex": 2,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -1028,6 +1092,7 @@
         },
         {
           "ServoIndex": 2,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -1041,6 +1106,7 @@
         },
         {
           "ServoIndex": 2,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -1054,6 +1120,7 @@
         },
         {
           "ServoIndex": 2,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -1067,6 +1134,7 @@
         },
         {
           "ServoIndex": 2,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -1080,6 +1148,7 @@
         },
         {
           "ServoIndex": 2,
+          "ServoType": null,
           "Engaged": false,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -1109,6 +1178,7 @@
       "Actions": [
         {
           "ServoIndex": 0,
+          "ServoType": null,
           "Engaged": true,
           "Acceleration": 5000,
           "RelativeAcceleration": null,
@@ -1122,6 +1192,7 @@
         },
         {
           "ServoIndex": 1,
+          "ServoType": null,
           "Engaged": true,
           "Acceleration": 5000,
           "RelativeAcceleration": null,
@@ -1135,6 +1206,7 @@
         },
         {
           "ServoIndex": 2,
+          "ServoType": null,
           "Engaged": true,
           "Acceleration": 5000,
           "RelativeAcceleration": null,
@@ -1178,6 +1250,7 @@
       "Actions": [
         {
           "ServoIndex": 0,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -1191,6 +1264,7 @@
         },
         {
           "ServoIndex": 1,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -1204,6 +1278,7 @@
         },
         {
           "ServoIndex": 2,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -1233,6 +1308,7 @@
       "Actions": [
         {
           "ServoIndex": 0,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -1246,6 +1322,7 @@
         },
         {
           "ServoIndex": 1,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -1259,6 +1336,7 @@
         },
         {
           "ServoIndex": 2,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -1288,6 +1366,7 @@
       "Actions": [
         {
           "ServoIndex": 0,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -1301,6 +1380,7 @@
         },
         {
           "ServoIndex": 1,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -1314,6 +1394,7 @@
         },
         {
           "ServoIndex": 2,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -1343,6 +1424,7 @@
       "Actions": [
         {
           "ServoIndex": 0,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -1356,6 +1438,7 @@
         },
         {
           "ServoIndex": 1,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -1369,6 +1452,7 @@
         },
         {
           "ServoIndex": 2,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -1398,6 +1482,7 @@
       "Actions": [
         {
           "ServoIndex": 0,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -1411,6 +1496,7 @@
         },
         {
           "ServoIndex": 1,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -1424,6 +1510,7 @@
         },
         {
           "ServoIndex": 2,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -1453,6 +1540,7 @@
       "Actions": [
         {
           "ServoIndex": 0,
+          "ServoType": null,
           "Engaged": false,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -1466,6 +1554,7 @@
         },
         {
           "ServoIndex": 1,
+          "ServoType": null,
           "Engaged": false,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -1479,6 +1568,7 @@
         },
         {
           "ServoIndex": 2,
+          "ServoType": null,
           "Engaged": false,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -1503,6 +1593,7 @@
       "Actions": [
         {
           "ServoIndex": 0,
+          "ServoType": null,
           "Engaged": true,
           "Acceleration": 5000,
           "RelativeAcceleration": null,
@@ -1516,6 +1607,7 @@
         },
         {
           "ServoIndex": 0,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -1529,6 +1621,7 @@
         },
         {
           "ServoIndex": 0,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -1542,6 +1635,7 @@
         },
         {
           "ServoIndex": 0,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -1555,6 +1649,7 @@
         },
         {
           "ServoIndex": 0,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -1568,6 +1663,7 @@
         },
         {
           "ServoIndex": 0,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -1581,6 +1677,7 @@
         },
         {
           "ServoIndex": 0,
+          "ServoType": null,
           "Engaged": false,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -1624,6 +1721,7 @@
       "Actions": [
         {
           "ServoIndex": 1,
+          "ServoType": null,
           "Engaged": true,
           "Acceleration": 5000,
           "RelativeAcceleration": null,
@@ -1637,6 +1735,7 @@
         },
         {
           "ServoIndex": 1,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -1650,6 +1749,7 @@
         },
         {
           "ServoIndex": 1,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -1663,6 +1763,7 @@
         },
         {
           "ServoIndex": 1,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -1676,6 +1777,7 @@
         },
         {
           "ServoIndex": 1,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -1689,6 +1791,7 @@
         },
         {
           "ServoIndex": 1,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -1702,6 +1805,7 @@
         },
         {
           "ServoIndex": 1,
+          "ServoType": null,
           "Engaged": false,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -1731,6 +1835,7 @@
       "Actions": [
         {
           "ServoIndex": 2,
+          "ServoType": null,
           "Engaged": true,
           "Acceleration": 5000,
           "RelativeAcceleration": null,
@@ -1744,6 +1849,7 @@
         },
         {
           "ServoIndex": 2,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -1757,6 +1863,7 @@
         },
         {
           "ServoIndex": 2,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -1770,6 +1877,7 @@
         },
         {
           "ServoIndex": 2,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -1783,6 +1891,7 @@
         },
         {
           "ServoIndex": 2,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -1796,6 +1905,7 @@
         },
         {
           "ServoIndex": 2,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -1809,6 +1919,7 @@
         },
         {
           "ServoIndex": 2,
+          "ServoType": null,
           "Engaged": false,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -1838,6 +1949,7 @@
       "Actions": [
         {
           "ServoIndex": 0,
+          "ServoType": null,
           "Engaged": false,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -1851,6 +1963,7 @@
         },
         {
           "ServoIndex": 1,
+          "ServoType": null,
           "Engaged": false,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -1864,6 +1977,7 @@
         },
         {
           "ServoIndex": 2,
+          "ServoType": null,
           "Engaged": false,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -1888,6 +2002,7 @@
       "Actions": [
         {
           "ServoIndex": 0,
+          "ServoType": null,
           "Engaged": true,
           "Acceleration": 5000,
           "RelativeAcceleration": null,
@@ -1901,6 +2016,7 @@
         },
         {
           "ServoIndex": 0,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -1914,6 +2030,7 @@
         },
         {
           "ServoIndex": 0,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -1927,6 +2044,7 @@
         },
         {
           "ServoIndex": 0,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -1940,6 +2058,7 @@
         },
         {
           "ServoIndex": 0,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -1953,6 +2072,7 @@
         },
         {
           "ServoIndex": 0,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -1966,6 +2086,7 @@
         },
         {
           "ServoIndex": 0,
+          "ServoType": null,
           "Engaged": false,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -2009,6 +2130,7 @@
       "Actions": [
         {
           "ServoIndex": 1,
+          "ServoType": null,
           "Engaged": true,
           "Acceleration": 5000,
           "RelativeAcceleration": null,
@@ -2022,6 +2144,7 @@
         },
         {
           "ServoIndex": 1,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -2035,6 +2158,7 @@
         },
         {
           "ServoIndex": 1,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -2048,6 +2172,7 @@
         },
         {
           "ServoIndex": 1,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -2061,6 +2186,7 @@
         },
         {
           "ServoIndex": 1,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -2074,6 +2200,7 @@
         },
         {
           "ServoIndex": 1,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -2087,6 +2214,7 @@
         },
         {
           "ServoIndex": 1,
+          "ServoType": null,
           "Engaged": false,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -2116,6 +2244,7 @@
       "Actions": [
         {
           "ServoIndex": 2,
+          "ServoType": null,
           "Engaged": true,
           "Acceleration": 5000,
           "RelativeAcceleration": null,
@@ -2129,6 +2258,7 @@
         },
         {
           "ServoIndex": 2,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -2142,6 +2272,7 @@
         },
         {
           "ServoIndex": 2,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -2155,6 +2286,7 @@
         },
         {
           "ServoIndex": 2,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -2168,6 +2300,7 @@
         },
         {
           "ServoIndex": 2,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -2181,6 +2314,7 @@
         },
         {
           "ServoIndex": 2,
+          "ServoType": null,
           "Engaged": null,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -2194,6 +2328,7 @@
         },
         {
           "ServoIndex": 2,
+          "ServoType": null,
           "Engaged": false,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -2223,6 +2358,7 @@
       "Actions": [
         {
           "ServoIndex": 0,
+          "ServoType": null,
           "Engaged": false,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -2236,6 +2372,7 @@
         },
         {
           "ServoIndex": 1,
+          "ServoType": null,
           "Engaged": false,
           "Acceleration": null,
           "RelativeAcceleration": null,
@@ -2249,6 +2386,7 @@
         },
         {
           "ServoIndex": 2,
+          "ServoType": null,
           "Engaged": false,
           "Acceleration": null,
           "RelativeAcceleration": null,

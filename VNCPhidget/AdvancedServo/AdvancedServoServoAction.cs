@@ -9,6 +9,9 @@ namespace JSONConsoleApp.VNCPhidget
         /// </summary>
         public int ServoIndex { get; set; }
 
+        public Phidgets.ServoServo.ServoType? ServoType { get; set; }
+
+
         /// <summary>
         /// Engage Servo (optional)
         /// </summary>
