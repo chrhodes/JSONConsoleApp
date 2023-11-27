@@ -40,7 +40,7 @@ namespace JSONConsoleApp.VNCPhidget
         //public double? PositionMax { get; set; }
 
         /// <summary>
-        /// Duration of step in ms (sleep time after step)
+        /// Duration of Action in ms (sleep time after Action)
         /// </summary>
         public Int32? Duration { get; set; }
     }

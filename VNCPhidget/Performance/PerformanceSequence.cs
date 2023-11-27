@@ -21,6 +21,11 @@ namespace JSONConsoleApp.VNCPhidget
         public Int32 Loops { get; set; } = 1;
 
         /// <summary>
+        /// Duration of Sequence in ms (sleep time after Loops completed)
+        /// </summary>
+        public Int32? Duration { get; set; }
+
+        /// <summary>
         /// Close Phidget at end of sequence loops
         /// </summary>
         public Boolean ClosePhidget { get; set; } = false;
