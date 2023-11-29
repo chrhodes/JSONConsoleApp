@@ -12,19 +12,30 @@ namespace JSONConsoleApp.VNCPhidget
         /// <summary>
         /// Description of Sequence
         /// </summary>
-        public string Description { get; set; } = "PERFORMANCE DESCRIPTION";
+        public string? Description { get; set; } = "PERFORMANCE DESCRIPTION";
 
         /// <summary>
-        /// Number of loops of Sequence
+        /// Number of loops of PerformanceSequences[]
         /// </summary>
         public Int32 Loops { get; set; } = 1;
 
         /// <summary>
         /// Play PerformanceSequences in Parallel or Sequential (false)
         /// </summary>
-        public Boolean PlayInParallel { get; set; } = false;
+        public Boolean PlaySequencesInParallel { get; set; } = false;
 
-        public PerformanceSequence[] PerformanceSequences { get; set; }
+        public PerformanceSequence[]? PerformanceSequences { get; set; }
+
+        /// <summary>
+        /// Name of Performance[] to call after executing Actions
+        /// before calling NextSequence
+        /// </summary>
+        public Performance[]? CallPerformances { get; set; }
+
+        /// <summary>
+        /// Duration in ms of sleep time after PerformanceSequences[] completed)
+        /// </summary>
+        public Int32? Duration { get; set; }
 
         /// <summary>
         /// Performance to invoke at end of Loops of PerformanceSequences (optional)
