@@ -7,16 +7,6 @@ namespace JSONConsoleApp.VNCPhidget
         {
             new InterfaceKitSequence
             {
-                //Host = new Host
-                //{
-                //    Name = "localhost",
-                //    IPAddress = "127.0.0.1",
-                //    Port = 5001,
-                //    InterfaceKits = new[]
-                //    {
-                //        new InterfaceKit { Name = "InterfaceKit 1", SerialNumber = 124744, Embedded = false, Open = true }
-                //    },
-                //},
                 SerialNumber = 124744,
                 Name="localhost_SequenceIK 1",
 
