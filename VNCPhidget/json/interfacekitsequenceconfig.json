@@ -33,28 +33,14 @@
           "Duration": 500
         }
       ],
-      "Host": {
-        "Name": "localhost",
-        "IPAddress": "127.0.0.1",
-        "Port": 5001,
-        "Enable": true,
-        "AdvancedServos": null,
-        "InterfaceKits": [
-          {
-            "Name": "InterfaceKit 1",
-            "SerialNumber": 124744,
-            "Open": true,
-            "Embedded": false
-          }
-        ],
-        "Steppers": null
-      },
+      "SerialNumber": 124744,
       "Name": "localhost_SequenceIK 1",
       "Description": null,
       "UsageNotes": null,
       "Loops": 1,
       "ExecuteActionsInParallel": false,
       "CallSequences": null,
+      "Duration": null,
       "NextSequence": null
     },
     {
@@ -90,28 +76,14 @@
           "Duration": 500
         }
       ],
-      "Host": {
-        "Name": "psbc11",
-        "IPAddress": "192.168.150.11",
-        "Port": 5001,
-        "Enable": true,
-        "AdvancedServos": null,
-        "InterfaceKits": [
-          {
-            "Name": "psbc11 InterfaceKit",
-            "SerialNumber": 46049,
-            "Open": true,
-            "Embedded": true
-          }
-        ],
-        "Steppers": null
-      },
+      "SerialNumber": 46049,
       "Name": "psbc11_SequenceIK 1",
       "Description": null,
       "UsageNotes": null,
       "Loops": 1,
       "ExecuteActionsInParallel": false,
       "CallSequences": null,
+      "Duration": null,
       "NextSequence": null
     },
     {
@@ -147,32 +119,19 @@
           "Duration": 500
         }
       ],
-      "Host": {
-        "Name": "psbc21",
-        "IPAddress": "192.168.150.21",
-        "Port": 5001,
-        "Enable": true,
-        "AdvancedServos": null,
-        "InterfaceKits": [
-          {
-            "Name": "psbc21 InterfaceKit",
-            "SerialNumber": 48301,
-            "Open": true,
-            "Embedded": true
-          }
-        ],
-        "Steppers": null
-      },
+      "SerialNumber": 48301,
       "Name": "psbc21_SequenceIK 1",
       "Description": null,
       "UsageNotes": null,
       "Loops": 1,
       "ExecuteActionsInParallel": false,
       "CallSequences": null,
+      "Duration": null,
       "NextSequence": {
         "Name": "psbc22_SequenceIK 1",
         "SequenceType": "IK",
         "Loops": 1,
+        "Duration": null,
         "ClosePhidget": false
       }
     },
@@ -209,28 +168,14 @@
           "Duration": 500
         }
       ],
-      "Host": {
-        "Name": "psbc21",
-        "IPAddress": "192.168.150.21",
-        "Port": 5001,
-        "Enable": true,
-        "AdvancedServos": null,
-        "InterfaceKits": [
-          {
-            "Name": "psbc21 InterfaceKit",
-            "SerialNumber": 48301,
-            "Open": true,
-            "Embedded": true
-          }
-        ],
-        "Steppers": null
-      },
+      "SerialNumber": 48301,
       "Name": "psbc21_SequenceIK 1 Parallel",
       "Description": null,
       "UsageNotes": null,
       "Loops": 1,
       "ExecuteActionsInParallel": true,
       "CallSequences": null,
+      "Duration": null,
       "NextSequence": null
     },
     {
@@ -266,32 +211,19 @@
           "Duration": 500
         }
       ],
-      "Host": {
-        "Name": "psbc22",
-        "IPAddress": "192.168.150.22",
-        "Port": 5001,
-        "Enable": true,
-        "AdvancedServos": null,
-        "InterfaceKits": [
-          {
-            "Name": "psbc22 InterfaceKit",
-            "SerialNumber": 251831,
-            "Open": true,
-            "Embedded": true
-          }
-        ],
-        "Steppers": null
-      },
+      "SerialNumber": 251831,
       "Name": "psbc22_SequenceIK 1",
       "Description": null,
       "UsageNotes": null,
       "Loops": 1,
       "ExecuteActionsInParallel": false,
       "CallSequences": null,
+      "Duration": null,
       "NextSequence": {
         "Name": "psbc23_SequenceIK 1",
         "SequenceType": "IK",
         "Loops": 1,
+        "Duration": null,
         "ClosePhidget": false
       }
     },
@@ -328,28 +260,14 @@
           "Duration": 500
         }
       ],
-      "Host": {
-        "Name": "psbc23",
-        "IPAddress": "192.168.150.23",
-        "Port": 5001,
-        "Enable": true,
-        "AdvancedServos": null,
-        "InterfaceKits": [
-          {
-            "Name": "psbc23 InterfaceKit",
-            "SerialNumber": 48284,
-            "Open": true,
-            "Embedded": true
-          }
-        ],
-        "Steppers": null
-      },
+      "SerialNumber": 48284,
       "Name": "psbc23_SequenceIK 1",
       "Description": null,
       "UsageNotes": null,
       "Loops": 1,
       "ExecuteActionsInParallel": false,
       "CallSequences": null,
+      "Duration": null,
       "NextSequence": null
     }
   ]

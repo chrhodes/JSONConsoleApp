@@ -1,11 +1,12 @@
 {
   "Actions": null,
-  "Host": null,
+  "SerialNumber": null,
   "Name": "SEQUENCE NAME",
   "Description": null,
   "UsageNotes": null,
   "Loops": 1,
   "ExecuteActionsInParallel": false,
   "CallSequences": null,
+  "Duration": null,
   "NextSequence": null
 }

@@ -2,5 +2,6 @@
   "Name": "SEQUENCE NAME",
   "SequenceType": null,
   "Loops": 1,
+  "Duration": null,
   "ClosePhidget": false
 }

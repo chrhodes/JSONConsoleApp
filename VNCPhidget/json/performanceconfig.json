@@ -6,34 +6,41 @@
       "Name": "psbc21_AS Performance 1",
       "Description": "psbc21_AS Performance 1 Description",
       "Loops": 1,
-      "PlayInParallel": false,
+      "PlaySequencesInParallel": false,
       "PerformanceSequences": [
         {
           "Name": "psbc21_SequenceServo0",
           "SequenceType": "AS",
           "Loops": 1,
+          "Duration": null,
           "ClosePhidget": false
         },
         {
           "Name": "psbc21_SequenceServo0P Configure and Engage",
           "SequenceType": "AS",
           "Loops": 1,
+          "Duration": null,
           "ClosePhidget": false
         }
       ],
+      "CallPerformances": null,
+      "Duration": null,
       "NextPerformance": {
         "Name": "End Show",
         "Description": "Shutdown and wave goodbye",
         "Loops": 1,
-        "PlayInParallel": false,
+        "PlaySequencesInParallel": false,
         "PerformanceSequences": [
           {
             "Name": "psbc21_Disengage",
             "SequenceType": "AS",
             "Loops": 1,
+            "Duration": null,
             "ClosePhidget": false
           }
         ],
+        "CallPerformances": null,
+        "Duration": null,
         "NextPerformance": null
       }
     },
@@ -41,69 +48,82 @@
       "Name": "IK Performance 1",
       "Description": "psbc{21,22,23}_SequenceIK 1 in Parallel",
       "Loops": 1,
-      "PlayInParallel": true,
+      "PlaySequencesInParallel": true,
       "PerformanceSequences": [
         {
           "Name": "psbc21_SequenceIK 1",
           "SequenceType": "IK",
           "Loops": 1,
+          "Duration": null,
           "ClosePhidget": false
         },
         {
           "Name": "psbc22_SequenceIK 1",
           "SequenceType": "IK",
           "Loops": 1,
+          "Duration": null,
           "ClosePhidget": false
         },
         {
           "Name": "psbc23_SequenceIK 1",
           "SequenceType": "IK",
           "Loops": 1,
+          "Duration": null,
           "ClosePhidget": false
         }
       ],
+      "CallPerformances": null,
+      "Duration": null,
       "NextPerformance": null
     },
     {
       "Name": "AS and IK",
       "Description": "psbc21_{SequenceServo0,SequenceIK 1} in Sequence",
       "Loops": 1,
-      "PlayInParallel": false,
+      "PlaySequencesInParallel": false,
       "PerformanceSequences": [
         {
           "Name": "psbc21_SequenceServo0",
           "SequenceType": "AS",
           "Loops": 1,
+          "Duration": null,
           "ClosePhidget": false
         },
         {
           "Name": "psbc21_SequenceIK 1",
           "SequenceType": "IK",
           "Loops": 1,
+          "Duration": null,
           "ClosePhidget": false
         }
       ],
+      "CallPerformances": null,
+      "Duration": null,
       "NextPerformance": null
     },
     {
       "Name": "AS and IK Parallel",
       "Description": "psbc21_{SequenceServo0,SequenceIK 1} in Parallel",
       "Loops": 1,
-      "PlayInParallel": true,
+      "PlaySequencesInParallel": true,
       "PerformanceSequences": [
         {
           "Name": "psbc21_SequenceServo0",
           "SequenceType": "AS",
           "Loops": 1,
+          "Duration": null,
           "ClosePhidget": false
         },
         {
           "Name": "psbc21_SequenceIK 1",
           "SequenceType": "IK",
           "Loops": 1,
+          "Duration": null,
           "ClosePhidget": false
         }
       ],
+      "CallPerformances": null,
+      "Duration": null,
       "NextPerformance": null
     }
   ]

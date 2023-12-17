@@ -13,27 +13,14 @@
           "Duration": null
         }
       ],
-      "Host": {
-        "Name": "localhost",
-        "IPAddress": "127.0.0.1",
-        "Port": 5001,
-        "Enable": true,
-        "AdvancedServos": null,
-        "InterfaceKits": null,
-        "Steppers": [
-          {
-            "Name": "Stepper 1",
-            "SerialNumber": 46049,
-            "Open": true
-          }
-        ]
-      },
+      "SerialNumber": 46049,
       "Name": "SequenceStepper 1",
       "Description": null,
       "UsageNotes": null,
       "Loops": 1,
       "ExecuteActionsInParallel": false,
       "CallSequences": null,
+      "Duration": null,
       "NextSequence": null
     }
   ]
