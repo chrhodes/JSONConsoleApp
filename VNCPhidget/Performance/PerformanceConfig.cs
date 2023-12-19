@@ -21,8 +21,8 @@
 
                 PerformanceSequences = new[] // PerformanceSequence[0];
                 {
-                    new PerformanceSequence { Name = "psbc21_SequenceServo0", SequenceType = "AS", Loops = 1 },
-                    new PerformanceSequence { Name = "psbc21_SequenceServo0P Configure and Engage", SequenceType = "AS", Loops = 1 }
+                    new PerformanceSequence { Name = "psbc21_SequenceServo0", SequenceType = "AS"},
+                    new PerformanceSequence { Name = "psbc21_SequenceServo0P Configure and Engage", SequenceType = "AS"}
                 },
                 NextPerformance = new Performance
                 {
@@ -31,7 +31,7 @@
 
                     PerformanceSequences = new[] // PerformanceSequence[0];
                     {
-                        new PerformanceSequence { Name = "psbc21_Disengage", SequenceType = "AS", Loops = 1 }
+                        new PerformanceSequence { Name = "psbc21_Disengage", SequenceType = "AS"}
                     }
                 }
             },
@@ -43,9 +43,9 @@
 
                 PerformanceSequences = new[]
                 {
-                    new PerformanceSequence { Name = "psbc21_SequenceIK 1", SequenceType = "IK", Loops = 1 },
-                    new PerformanceSequence { Name = "psbc22_SequenceIK 1", SequenceType = "IK", Loops = 1 },
-                    new PerformanceSequence { Name = "psbc23_SequenceIK 1", SequenceType = "IK", Loops = 1 }
+                    new PerformanceSequence { Name = "psbc21_SequenceIK 1", SequenceType = "IK" },
+                    new PerformanceSequence { Name = "psbc22_SequenceIK 1", SequenceType = "IK" },
+                    new PerformanceSequence { Name = "psbc23_SequenceIK 1", SequenceType = "IK" }
                 }
             },
             new Performance
@@ -55,8 +55,8 @@
 
                 PerformanceSequences = new[]
                 {
-                    new PerformanceSequence { Name = "psbc21_SequenceServo0", SequenceType = "AS", Loops = 1 },
-                    new PerformanceSequence { Name = "psbc21_SequenceIK 1", SequenceType = "IK", Loops = 1 }
+                    new PerformanceSequence { Name = "psbc21_SequenceServo0", SequenceType = "AS" },
+                    new PerformanceSequence { Name = "psbc21_SequenceIK 1", SequenceType = "IK" }
                 }
             },
             new Performance
@@ -67,8 +67,8 @@
 
                 PerformanceSequences = new[]
                 {
-                    new PerformanceSequence { Name = "psbc21_SequenceServo0", SequenceType = "AS", Loops = 1 },
-                    new PerformanceSequence { Name = "psbc21_SequenceIK 1", SequenceType = "IK", Loops = 1 }
+                    new PerformanceSequence { Name = "psbc21_SequenceServo0", SequenceType = "AS" },
+                    new PerformanceSequence { Name = "psbc21_SequenceIK 1", SequenceType = "IK" }
                 }
             }
         };

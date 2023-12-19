@@ -59,7 +59,7 @@ namespace JSONConsoleApp.VNCPhidget
                 //},
                 SerialNumber = 48301,
                 Name="psbc21_SequenceIK 1",
-                NextSequence = new PerformanceSequence { Name = "psbc22_SequenceIK 1", SequenceType = "IK", Loops = 1 },
+                NextSequence = new PerformanceSequence { Name = "psbc22_SequenceIK 1", SequenceType = "IK" },
 
                 Actions = new[]
                 {
@@ -111,7 +111,7 @@ namespace JSONConsoleApp.VNCPhidget
                 //},
                 SerialNumber = 251831,
                 Name="psbc22_SequenceIK 1",
-                NextSequence = new PerformanceSequence { Name = "psbc23_SequenceIK 1", SequenceType = "IK", Loops = 1 },
+                NextSequence = new PerformanceSequence { Name = "psbc23_SequenceIK 1", SequenceType = "IK" },
 
                 Actions = new[]
                 {
