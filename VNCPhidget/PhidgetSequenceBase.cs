@@ -58,7 +58,7 @@ namespace JSONConsoleApp.VNCPhidget
         /// <summary>
         /// Duration of Action[] in ms (sleep time after Actions completed)
         /// </summary>
-        public Int32? ActionDuration { get; set; }
+        public Int32? ActionsDuration { get; set; }
 
         /// <summary>
         /// PerformanceSequence[] to call at start of each SequenceLoop
