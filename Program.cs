@@ -19,7 +19,7 @@ class Program
         // NOTE(crhodes)
         // For VNCPhidgets
 
-        //PhidgetJSON explore = new PhidgetJSON("..\\..\\..\\VNCPhidget\\json");
+        PhidgetJSON explore = new PhidgetJSON("..\\..\\..\\VNCPhidget\\json");
 
         //explore.ConvertObjectsToJSON();
 
@@ -28,7 +28,7 @@ class Program
         // NOTE(crhodes)
         // For VNCLogging
 
-        VNCLoggingJSON explore = new VNCLoggingJSON("..\\..\\..\\VNCLogging\\json");
+        //VNCLoggingJSON explore = new VNCLoggingJSON("..\\..\\..\\VNCLogging\\json");
 
         explore.ConvertObjectsToJSON();
 

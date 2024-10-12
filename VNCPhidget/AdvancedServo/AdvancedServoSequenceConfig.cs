@@ -16,7 +16,7 @@
                 //        new AdvancedServo { Name = "AdvancedServo 1", SerialNumber = 99415, Open = true }
                 //    }
                 //},
-                SerialNumber = 99415,
+                //SerialNumber = 99415,
                 Name="localhost_SequenceServo0",
                 NextSequence = new PerformanceSequence { Name = "localhost_SequenceServo1", SequenceType = "AS" },
 
@@ -86,7 +86,7 @@
                 //        new AdvancedServo { Name = "AdvancedServo 1", SerialNumber = 99415, Open = true }
                 //    }
                 //},
-                SerialNumber = 99415,
+                //SerialNumber = 99415,
                 Name="psbc11_SequenceServo0",
                 NextSequence = new PerformanceSequence { Name = "psbc11_SequenceServo1", SequenceType = "AS" },
 
@@ -156,7 +156,7 @@
                 //        new AdvancedServo { Name = "AdvancedServo 1", SerialNumber = 99415, Open = true }
                 //    }
                 //},
-                SerialNumber = 99415,
+                //SerialNumber = 99415,
                 Name="psbc21_SequenceServo0",
                 NextSequence = new PerformanceSequence { Name = "psbc21_SequenceServo1", SequenceType = "AS" },
 
@@ -215,7 +215,7 @@
                 //        new AdvancedServo { Name = "AdvancedServo 1", SerialNumber = 99415, Open = true }
                 //    }
                 //},
-                SerialNumber = 99415,
+                //SerialNumber = 99415,
                 Name="psbc21_SequenceServo0P Configure and Engage",
                 ExecuteActionsInParallel = true,
                 NextSequence = new PerformanceSequence { Name = "psbc21_SequenceServo1P", SequenceType = "AS" },
@@ -318,7 +318,7 @@
                 //        new AdvancedServo { Name = "AdvancedServo 1", SerialNumber = 99415, Open = true }
                 //    }
                 //},
-                SerialNumber = 99415,
+                //SerialNumber = 99415,
                 Name="psbc22_SequenceServo0",
                 NextSequence = new PerformanceSequence { Name = "psbc22_SequenceServo1", SequenceType = "AS" },
 
@@ -388,7 +388,7 @@
                 //        new AdvancedServo { Name = "AdvancedServo 1", SerialNumber = 99415, Open = true }
                 //    }
                 //},
-                SerialNumber = 99415,
+                //SerialNumber = 99415,
                 Name="psbc23_SequenceServo0",
                 NextSequence = new PerformanceSequence { Name = "psbc23_SequenceServo1", SequenceType = "AS" },
 

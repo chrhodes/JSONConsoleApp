@@ -7,7 +7,7 @@ namespace JSONConsoleApp.VNCPhidget
         {
             new InterfaceKitSequence
             {
-                SerialNumber = 124744,
+                //SerialNumber = 124744,
                 Name="localhost_SequenceIK 1",
 
                 Actions = new[]
@@ -32,7 +32,7 @@ namespace JSONConsoleApp.VNCPhidget
                 //        new InterfaceKit { Name = "psbc11 InterfaceKit", SerialNumber = 46049, Embedded = true, Open = true }
                 //    },
                 //},
-                SerialNumber = 46049,
+                //SerialNumber = 46049,
                 Name="psbc11_SequenceIK 1",
 
                 Actions = new[]
@@ -57,7 +57,7 @@ namespace JSONConsoleApp.VNCPhidget
                 //        new InterfaceKit { Name = "psbc21 InterfaceKit", SerialNumber = 48301, Embedded = true, Open = true }
                 //    },
                 //},
-                SerialNumber = 48301,
+                //SerialNumber = 48301,
                 Name="psbc21_SequenceIK 1",
                 NextSequence = new PerformanceSequence { Name = "psbc22_SequenceIK 1", SequenceType = "IK" },
 
@@ -83,7 +83,7 @@ namespace JSONConsoleApp.VNCPhidget
                 //        new InterfaceKit { Name = "psbc21 InterfaceKit", SerialNumber = 48301, Embedded = true, Open = true }
                 //    },
                 //},
-                SerialNumber = 48301,
+                //SerialNumber = 48301,
                 Name="psbc21_SequenceIK 1 Parallel",
                 ExecuteActionsInParallel = true,
 
@@ -109,7 +109,7 @@ namespace JSONConsoleApp.VNCPhidget
                 //        new InterfaceKit { Name = "psbc22 InterfaceKit", SerialNumber = 251831, Embedded = true, Open = true },
                 //    },
                 //},
-                SerialNumber = 251831,
+                //SerialNumber = 251831,
                 Name="psbc22_SequenceIK 1",
                 NextSequence = new PerformanceSequence { Name = "psbc23_SequenceIK 1", SequenceType = "IK" },
 
@@ -135,7 +135,7 @@ namespace JSONConsoleApp.VNCPhidget
                 //        new InterfaceKit { Name = "psbc23 InterfaceKit", SerialNumber = 48284, Embedded = true, Open = true }
                 //    },
                 //},
-                SerialNumber = 48284,
+                //SerialNumber = 48284,
                 Name="psbc23_SequenceIK 1",
 
                 Actions = new[]
