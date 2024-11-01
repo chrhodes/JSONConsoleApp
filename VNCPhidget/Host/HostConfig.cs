@@ -3,7 +3,7 @@
     public class HostConfig
     {
         // NOTE(crhodes)
-        // This class now needs to reflect where Phidgets are actually connected
+        // This class now needs to reflect where Phidget22 are actually connected
 
         public Host[] Hosts { get; set; } = new[]
         {

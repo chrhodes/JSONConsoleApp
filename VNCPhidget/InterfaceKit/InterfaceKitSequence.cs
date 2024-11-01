@@ -1,6 +1,6 @@
 ﻿namespace JSONConsoleApp.VNCPhidget
 {
-    public class InterfaceKitSequence : PhidgetSequenceBase
+    public class InterfaceKitSequence : Phidget22equenceBase
     {
         /// <summary>
         /// Array of InterfaceKit actions in sequence

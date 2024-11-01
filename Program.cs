@@ -17,7 +17,7 @@ class Program
         //explore.ConvertJSONToObject();
 
         // NOTE(crhodes)
-        // For VNCPhidgets
+        // For VNCPhidget22
 
         PhidgetJSON explore = new PhidgetJSON("..\\..\\..\\VNCPhidget\\json");
 

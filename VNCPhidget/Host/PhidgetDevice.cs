@@ -1,6 +1,6 @@
-﻿using Phidgets;
+﻿using Phidget22;
 
-using static Phidgets.Phidget;
+using static Phidget22.Phidget;
 
 namespace JSONConsoleApp.VNCPhidget
 {
@@ -12,25 +12,34 @@ namespace JSONConsoleApp.VNCPhidget
 
     public class PhidgetDevice
     {
-        public PhidgetDevice()
-        {
-        }
+        //public PhidgetDevice()
+        //{
+        //}
 
-        public PhidgetDevice(string ipAddress, int port, PhidgetClass phidgetClass, int serialNumber)
+        public PhidgetDevice(string ipAddress, int port, DeviceClass deviceClass, ChannelClass channelClass, int serialNumber)
         {
             IPAddress = ipAddress;
             Port = port;
-            PhidgetClass = phidgetClass;
+            ChannelClass = channelClass;
+            DeviceClass = deviceClass;
             SerialNumber = serialNumber;
         }
+
+        // TODO(crhodes)
+        // How is this used?
+        public SerialHost SerialHostKey { get; set; }
 
         public string IPAddress { get; set; } = "127.0.0.1";
 
         public int Port { get; set; } = 5001;
 
-        public Phidget.PhidgetClass PhidgetClass { get; set; } = Phidget.PhidgetClass.NOTHING;
+        public ChannelClass ChannelClass { get; set; } = ChannelClass.None;
+
+        public DeviceClass DeviceClass { get; set; } = DeviceClass.None;
 
         public int SerialNumber { get; set; } = 0;
+
+        public PhidgetEx PhidgetEx { get; set; }
     }
 }
 
